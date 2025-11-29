@@ -1,0 +1,1 @@
+/home/bkaya/SaveX/contracts/savex/target/wasm32-unknown-unknown/release/savex_contract.wasm: /home/bkaya/SaveX/contracts/savex/src/lib.rs /home/bkaya/SaveX/contracts/savex/src/test.rs /home/bkaya/SaveX/contracts/savex/src/types.rs

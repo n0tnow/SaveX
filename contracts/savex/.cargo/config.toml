@@ -1,0 +1,9 @@
+[target.wasm32v1-none]
+rustflags = [
+  "-C", "link-arg=-zstack-size=65536",
+  "-C", "opt-level=z",
+  "-C", "lto=fat",
+]
+
+[build]
+target = "wasm32v1-none"
