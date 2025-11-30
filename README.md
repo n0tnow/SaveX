@@ -37,13 +37,6 @@ Subscribe to packages for automatic discounts on all transfers:
 - ✅ Cancel anytime
 - ✅ View package stats (transfers, volume, savings)
 
-### 🔒 Rate Locking
-Lock current exchange rate for future transfers:
-- Lock rate for up to 24 hours
-- Execute transfer at locked rate
-- Cancel lock before expiry
-- Perfect for volatile markets
-
 ### 💱 DEX Aggregation
 Automatically compare Soroswap vs Stellar DEX:
 - Real-time price comparison
@@ -445,6 +438,13 @@ stellar contract invoke \
 - [ ] Enterprise API
 - [ ] Liquidity provision
 - [ ] Governance token
+      
+### 🔒 Rate Locking
+Lock current exchange rate for future transfers:
+- Lock rate for up to 24 hours
+- Execute transfer at locked rate
+- Cancel lock before expiry
+- Perfect for volatile markets
 
 ---
 
