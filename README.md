@@ -1,441 +1,450 @@
-# SaveX - Smart DEX Aggregator for Stellar
+# SaveX - Smart Remittance Platform for Stellar
 
-**AI-powered swap optimization on Stellar blockchain**
+**AI-powered cross-border transfers with package subscriptions, rate locking, and automated arbitrage**
 
-SaveX is a decentralized swap aggregator that finds the cheapest trading routes across multiple DEXs on Stellar, optimizes timing based on volatility patterns, and reduces costs through intelligent batching.
+SaveX is a comprehensive DeFi platform on Stellar that combines smart transfers, subscription packages, rate locking, DEX aggregation, and arbitrage opportunities to minimize costs and maximize savings for users.
 
 ---
 
-## 🎯 Problem We're Solving
+## 🎯 What is SaveX?
 
-**Current situation:**
-- Stellar DEX: ~0.12% spread (good!)
-- Soroswap: ~0.3% fee
-- Phoenix: ~0.1% fee
-- Users don't know which is cheapest at any given moment
-- Exotic token pairs require multi-hop routing
-- Small swaps pay same % as large ones (no volume benefits)
+SaveX revolutionizes cross-border money transfers by combining multiple DeFi features:
 
-**Our solution:**
-- **Liquidity Aggregation**: Compare all DEXs in real-time, use the cheapest
-- **Multi-hop Routing**: Find optimal path through intermediary tokens (XLM → USDC → TRY)
-- **Timing Optimization**: Historical pattern analysis suggests best times to swap
-- **Batch Processing**: Combine multiple users' swaps for lower slippage
-- **Path Splitting**: Split large swaps across multiple pools to minimize price impact
+- **Package Subscriptions**: Get automatic discounts (15-25%) on all transfers
+- **Rate Locking**: Lock exchange rates for up to 24 hours
+- **DEX Aggregation**: Auto-select cheapest DEX (Soroswap vs Stellar DEX)
+- **Arbitrage Tools**: Execute profitable arbitrage opportunities
+- **Smart Transfers**: Scheduled, batch, split, and swap transfers
+- **Fee Optimization**: Real-time fee calculator with package discounts
 
-**Real savings: 0.5-2% per swap** ($5-20 on $1000 transfer)
+**Real savings: 2-5% per transfer** ($20-50 on $1000 transfer)
+
+---
+
+## ✨ Key Features
+
+### 📦 Package Subscriptions
+Subscribe to packages for automatic discounts on all transfers:
+
+| Package | Discount | Price |
+|---------|----------|-------|
+| **Family** | 15% off | $9.99/month |
+| **Business** | 20% off | $19.99/month |
+| **Premium** | 25% off | $49.99/month |
+
+- ✅ Automatic discount application
+- ✅ Flexible duration: 30, 90, 180, 365 days
+- ✅ Cancel anytime
+- ✅ View package stats (transfers, volume, savings)
+
+### 🔒 Rate Locking
+Lock current exchange rate for future transfers:
+- Lock rate for up to 24 hours
+- Execute transfer at locked rate
+- Cancel lock before expiry
+- Perfect for volatile markets
+
+### 💱 DEX Aggregation
+Automatically compare Soroswap vs Stellar DEX:
+- Real-time price comparison
+- Auto-select cheapest DEX
+- Savings: 0.1-0.3% per swap
+- Transparent fee breakdown
+
+### 🔄 Arbitrage Tools
+
+**Triangular Arbitrage:**
+- Automated detection (XLM→USDC→AQUA→XLM)
+- Real-time profit estimation
+- One-click execution
+- Auto-refresh every 10 seconds
+
+**Simple Arbitrage:**
+- 2-token arbitrage (XLM ↔ USDC)
+- Estimate profit before execution
+- Buy low on one DEX, sell high on another
+- Freighter wallet integration
+
+### 💸 Smart Transfers
+
+**1. Immediate Transfer**
+- Instant send to any address
+- Multi-token support
+- Slippage protection
+
+**2. Scheduled Transfer**
+- Time-locked transfers
+- Execute after specific time
+- Cancellable before execution
+
+**3. Batch Transfer**
+- Multiple recipients in one transaction
+- Gas cost optimization
+- Batch discount (10% per recipient)
+
+**4. Split Transfer**
+- Send part now, part later
+- Percentage-based splitting
+- Flexible allocation
+
+**5. Transfer with Swap**
+- Swap + send in one transaction
+- Multi-hop routing (XLM→USDC→TRY)
+- Optimal path finding
 
 ---
 
 ## 🏗️ Architecture
 
-### Smart Contracts (Stellar Soroban)
+### Smart Contract (Stellar Soroban)
 
+**Contract Address (Testnet):**
 ```
-contracts/
-├── savex/              # Main aggregator contract ✅
-│   ├── swap routing
-│   ├── multi-hop execution
-│   ├── batch coordination
-│   └── scheduled swaps
-│
-├── pool_analyzer/      # [PLANNED] DEX pool analytics
-│   ├── liquidity tracking
-│   ├── spread calculation
-│   └── slippage estimation
-│
-└── arbitrage_monitor/  # [PLANNED] Cross-DEX arbitrage detection
-    ├── price monitoring
-    └── opportunity detection
+CDK4XKO56J7ULHTCNFT6OVPY2FBO6FJEYSXCCQ7QR4TBMQE6XY5DPNGT
 ```
 
-### Frontend (Next.js + TypeScript) - **No Backend Required!**
-
+**34 Functions Available:**
 ```
-app/
-├── components/
-│   ├── SwapInterface       # Simple swap UI
-│   ├── RouteVisualizer     # Show multi-hop path & savings
-│   ├── BatchManager        # Personal batch queue (localStorage)
-│   └── SavingsDashboard    # Track user savings
-│
-├── utils/
-│   ├── pathFinding.ts      # Dijkstra algorithm (client-side)
-│   │   ├── Query Soroswap pools
-│   │   ├── Build liquidity graph
-│   │   └── Find optimal route
-│   │
-│   ├── volatilityAnalysis.ts  # Timing recommendations (Horizon API)
-│   │   ├── Fetch historical trades
-│   │   ├── Calculate hourly patterns
-│   │   └── Suggest best swap time
-│   │
-│   └── batchCoordinator.ts    # Personal batch queue
-│       ├── localStorage persistence
-│       ├── Auto-execute at 3-5 swaps
-│       └── Fee discount calculator
-│
-└── hooks/
-    ├── useSwapQuote.ts     # Real-time DEX quotes (SWR)
-    ├── useBatchQueue.ts    # Batch management
-    └── usePathFinding.ts   # Optimal route finder
+Transfer Functions:
+├── transfer_immediate
+├── transfer_scheduled
+├── transfer_batch
+├── transfer_split
+├── transfer_with_swap
+└── transfer_with_rate_lock
+
+Package Functions:
+├── subscribe_package
+├── get_package
+└── cancel_package
+
+Rate Lock Functions:
+├── lock_rate
+├── get_rate_lock
+└── cancel_rate_lock
+
+Arbitrage Functions:
+├── execute_arbitrage (simple 2-token)
+├── execute_triangular_arbitrage (multi-hop)
+├── estimate_arbitrage_profit
+├── has_arbitrage_opportunity
+└── flash_arbitrage
+
+DEX Functions:
+├── get_soroswap_quote
+├── get_stellar_dex_quote
+├── get_best_dex_quote
+└── get_swap_path
+
+Utility Functions:
+├── calculate_fee
+├── estimate_swap_output
+├── estimate_schedule_savings
+└── execute_scheduled_transfer
+
+Admin Functions:
+├── initialize
+├── set_router_address
+├── set_factory_address
+├── pause
+└── unpause
 ```
 
-**Architecture Decision:** All optimization features run in the browser (no backend server needed).
-- ✅ Deploy to Vercel without issues
-- ✅ No database or server costs
-- ✅ Real-time data from Stellar Horizon API + Soroswap contracts
-- ✅ Client-side path finding & volatility analysis
+### Frontend (Next.js 16 + TypeScript)
+
+**Pages:**
+- `/` - Landing page
+- `/swap` - Swap interface with DEX comparison & fee calculator
+- `/analytics` - Subscription management
+- `/arbitrage` - Triangular arbitrage detector
+- `/liquidity` - Liquidity pools & simple arbitrage
+
+**Components:**
+```
+components/
+├── SwapInterface.tsx           # Main swap UI
+├── ArbitrageDetector.tsx       # Triangular arbitrage
+├── SimpleArbitrage.tsx         # 2-token arbitrage
+├── DexComparisonWidget.tsx     # DEX price comparison
+├── FeeCalculator.tsx           # Fee breakdown
+├── PackageSubscriptions.tsx    # Subscription management
+├── RateLocking.tsx             # Rate lock UI
+├── ImmediateTransfer.tsx       # Instant transfers
+├── AdvancedTransfers.tsx       # Scheduled transfers
+├── BatchManager.tsx            # Batch transfers
+├── SplitTransfer.tsx           # Split transfers
+└── TokenSwap.tsx               # Swap with routing
+```
 
 ---
 
-## 💡 Key Features
+## 📊 Savings Breakdown
 
-### ✅ **Phase 1: MVP (Current)**
-
-**1. Multi-hop Token Swaps**
-- Automatic path finding for exotic pairs
-- XLM → USDC → TRY routing
-- Slippage protection
-
-**2. Scheduled Swaps**
-- Time-locked transfers
-- Lock rate for future execution
-- Cancel before execution
-
-**3. Batch Transfers**
-- Multiple recipients in one transaction
-- Gas cost optimization
-
-**4. Split Transfers**
-- Send part now, part later
-- Percentage-based splitting
-
-### 🔄 **Phase 2: Aggregation (Next - 4 weeks)**
-
-**5. DEX Aggregation**
-- Real-time comparison: Stellar DEX vs Soroswap vs Phoenix
-- Automatic best-price selection
-- Expected savings: 0.1-0.3% per swap
-
-**6. Multi-hop Optimization**
-- Analyze all possible paths (2-5 hops)
-- Choose lowest-cost route
-- Expected savings: 0.5-1%
-
-### 🤖 **Phase 3: AI Optimization (8 weeks)**
-
-**7. Timing Optimization**
-- Historical volatility analysis
-- "Swap now vs wait 6 hours" recommendations
-- Pattern: Night swaps ~40% cheaper spread
-- Expected savings: 0.05-0.15%
-
-**8. Batch Processing**
-- Pool same-route swaps from multiple users
-- Execute when 10-50 users accumulated
-- Volume discount from reduced slippage
-- Expected savings: 0.2-0.5%
-
-**9. Path Splitting**
-- Split large swaps across multiple pools
-- $10,000 swap → 3x $3,333 through different paths
-- Minimize price impact
-- Expected savings: 0.5-2% on large swaps
-
-### ⚡ **Phase 4: Advanced (Future)**
-
-**10. Flash Arbitrage Detection**
-- Monitor for temporary price discrepancies
-- Cross-DEX arbitrage (Stellar ↔ Soroswap ↔ Phoenix)
-- Rare but 0.5-2% profit opportunities
-
-**11. Cross-chain Bridges** (Future consideration)
-- Stellar ↔ Ethereum via bridges
-- Expand to multi-chain aggregation
-
----
-
-## 📊 Expected Savings Breakdown
-
-| Feature | Savings | Frequency |
-|---------|---------|-----------|
+| Feature | Savings | Applied |
+|---------|---------|---------|
+| **Package Discount** | 15-25% | Every transfer |
 | **DEX Aggregation** | 0.1-0.3% | Every swap |
-| **Multi-hop Routing** | 0.5-1% | Exotic pairs |
-| **Timing Optimization** | 0.05-0.15% | If user can wait |
-| **Batch Processing** | 0.2-0.5% | When batch available |
-| **Path Splitting** | 0.5-2% | Large swaps >$5k |
-| **Flash Arbitrage** | 0.5-2% | Rare (2-3x/month) |
+| **Batch Transfers** | 10% per recipient | Batch operations |
+| **Timing Optimization** | 0.05-0.15% | Scheduled transfers |
+| **Arbitrage** | 0.5-5% | When opportunities exist |
 
-**Total realistic savings: 0.5-2% per swap**
-
-**Comparison:**
-- Direct Stellar DEX: 0.12% spread = $1.20 per $1000
-- SaveX optimized: 0.05-0.08% = $0.50-0.80 per $1000
-- **Savings: $0.40-0.70 per $1000 transfer**
+**Example: $1000 XLM → USDC transfer**
+- Without SaveX: $3.50 (0.35% Soroswap fee)
+- With SaveX (Business package):
+  - Base fee: $3.50
+  - DEX aggregation savings: -$1.00 (use Stellar DEX)
+  - Package discount: -$0.70 (20% off)
+  - **Total: $1.80 (saved $1.70)** ✅
 
 vs Traditional:
-- Western Union: 3.5% = $35 per $1000
-- **SaveX saves: $34+ vs Western Union**
+- Western Union: $35 (3.5%)
+- **SaveX saves: $33.20 vs Western Union** 💰
 
 ---
 
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Rust 1.75+
-- Soroban CLI v21.0.0+
+- Freighter Wallet ([Install](https://freighter.app/))
+- Stellar testnet account with funds
 - Node.js 18+
-- Stellar account (testnet)
 
-### 1. Deploy Contract (Testnet)
+### 1. Setup Wallet
 
-```bash
-cd contracts/savex
+1. Install Freighter browser extension
+2. Create/import testnet account
+3. Get testnet XLM: https://laboratory.stellar.org/#account-creator
 
-# Build contract
-cargo build --target wasm32-unknown-unknown --release
-
-# Optimize WASM
-soroban contract optimize \
-  --wasm target/wasm32-unknown-unknown/release/savex.wasm
-
-# Deploy to testnet
-soroban contract deploy \
-  --wasm target/wasm32-unknown-unknown/release/savex.optimized.wasm \
-  --network testnet \
-  --source <YOUR_SECRET_KEY>
-
-# Initialize contract
-soroban contract invoke \
-  --id <CONTRACT_ID> \
-  --network testnet \
-  --source <YOUR_SECRET_KEY> \
-  -- initialize \
-  --admin <YOUR_PUBLIC_KEY>
-
-# Set Soroswap Router (testnet)
-soroban contract invoke \
-  --id <CONTRACT_ID> \
-  --network testnet \
-  --source <YOUR_SECRET_KEY> \
-  -- set_router_address \
-  --admin <YOUR_PUBLIC_KEY> \
-  --router CCMAPXWVZD4USEKDWRYS7DA4Y3D7E2SDMGBFJUCEXTC7VN6CUBGWPFUS
-```
-
-### 2. Test Multi-hop Swap
+### 2. Run Frontend
 
 ```bash
-# Example: XLM → USDC → Test Token
-soroban contract invoke \
-  --id <CONTRACT_ID> \
-  --network testnet \
-  --source <YOUR_SECRET_KEY> \
-  -- transfer_with_swap \
-  --from <YOUR_PUBLIC_KEY> \
-  --to <RECIPIENT_ADDRESS> \
-  --from_token <XLM_ADDRESS> \
-  --to_token <TEST_TOKEN_ADDRESS> \
-  --amount 1000000000 \
-  --min_output_amount 950000000 \
-  --path '["<USDC_ADDRESS>"]'
+# Clone repo
+git clone https://github.com/yourusername/SaveX.git
+cd SaveX/savex-ui
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
 ```
 
-### 3. Run Tests
+Open http://localhost:3000
 
-```bash
-cd contracts/savex
-cargo test
-```
+### 3. Connect Wallet
+
+1. Click "Connect Wallet" in header
+2. Approve connection in Freighter
+3. Your balance will load automatically
+
+### 4. Try Features
+
+**Subscribe to Package:**
+1. Go to `/analytics`
+2. Select package (Family/Business/Premium)
+3. Choose duration
+4. Click "Subscribe to Package"
+5. Approve in Freighter
+
+**Execute Swap:**
+1. Go to `/swap`
+2. Select tokens (FROM → TO)
+3. Enter amount
+4. View DEX comparison (auto-selects cheapest)
+5. Check fee breakdown
+6. Click "Swap"
+7. Approve in Freighter
+
+**Find Arbitrage:**
+1. Go to `/arbitrage`
+2. View detected opportunities
+3. Click "Execute Arbitrage"
+4. Approve in Freighter
+5. Profit! 🎉
 
 ---
 
 ## 🎮 Usage Examples
 
-### Simple Swap (1-hop)
+### Subscribe to Package
 
 ```typescript
-import { SaveXClient } from './savex_client';
-
-const client = new SaveXClient(contractId);
-
-// Swap 100 USDC → XLM
-const transferId = await client.transfer_with_swap({
-  from: userAddress,
-  to: recipientAddress,
-  from_token: USDC_ADDRESS,
-  to_token: XLM_ADDRESS,
-  amount: 100_0000000, // 100 USDC (7 decimals)
-  min_output_amount: 390_0000000, // Min 390 XLM (1% slippage)
-  path: [], // Direct swap
-});
+// Family package for 90 days
+const result = await stellarService.invokeSaveXContract(
+  'subscribe_package',
+  [
+    stellarService.createScVal.address(userAddress),
+    stellarService.createScVal.string('Family'),
+    stellarService.createScVal.u32(90), // days
+  ],
+  userAddress
+);
 ```
 
-### Multi-hop Swap (XLM → USDC → TRY)
+### Lock Exchange Rate
 
 ```typescript
-// Swap 1000 XLM → TRY through USDC
-const transferId = await client.transfer_with_swap({
-  from: userAddress,
-  to: recipientAddress,
-  from_token: XLM_ADDRESS,
-  to_token: TRY_ADDRESS,
-  amount: 1000_0000000,
-  min_output_amount: 10_000_0000000, // Min 10,000 TRY
-  path: [USDC_ADDRESS], // Route: XLM → USDC → TRY
-});
+// Lock XLM/USDC rate for 12 hours
+const rateLockId = await stellarService.invokeSaveXContract(
+  'lock_rate',
+  [
+    stellarService.createScVal.address(userAddress),
+    stellarService.createScVal.address(XLM_ADDRESS),
+    stellarService.createScVal.address(USDC_ADDRESS),
+    stellarService.createScVal.i128(100_0000000), // 100 XLM
+    stellarService.createScVal.u64(12 * 3600), // 12 hours
+  ],
+  userAddress
+);
 ```
 
-### Scheduled Swap (Time-locked)
+### Execute Triangular Arbitrage
 
 ```typescript
-// Lock funds now, swap in 6 hours
-const now = Math.floor(Date.now() / 1000);
-const swapIn6Hours = now + (6 * 3600);
-
-const transferId = await client.transfer_scheduled({
-  from: userAddress,
-  to: recipientAddress,
-  token: USDC_ADDRESS,
-  amount: 500_0000000,
-  execute_after: swapIn6Hours,
-});
-
-// Later, anyone can execute:
-await client.execute_scheduled_transfer({ transfer_id: transferId });
+// XLM → USDC → AQUA → XLM
+const contract = new Contract(CONTRACTS.SAVEX);
+const tx = new TransactionBuilder(sourceAccount, {...})
+  .addOperation(
+    contract.call(
+      'execute_triangular_arbitrage',
+      Address.fromString(userAddress).toScVal(),
+      nativeToScVal([USDC_ADDRESS, AQUA_ADDRESS], { type: 'address[]' }),
+      nativeToScVal(100_0000000, { type: 'i128' }), // 100 XLM
+      nativeToScVal(1_0000000, { type: 'i128' }), // Min 1 XLM profit
+    )
+  )
+  .build();
 ```
 
-### Batch Transfer
+### Compare DEX Prices
 
 ```typescript
-// Send to multiple recipients in one transaction
-const transferIds = await client.transfer_batch({
-  from: userAddress,
-  recipients: [addr1, addr2, addr3],
-  token: USDC_ADDRESS,
-  amounts: [100_0000000, 200_0000000, 150_0000000],
-});
+// Get quotes from both DEXs
+const soroswapQuote = await contract.call('get_soroswap_quote', [
+  fromToken, toToken, amount
+]);
+
+const stellarQuote = await contract.call('get_stellar_dex_quote', [
+  fromToken, toToken, amount
+]);
+
+// Auto-select best
+const bestQuote = await contract.call('get_best_dex_quote', [
+  fromToken, toToken, amount
+]);
 ```
 
 ---
 
-## 📈 Roadmap
+## 📈 Contract Deployment
 
-### Q1 2025: MVP ✅
-- [x] Multi-hop swap routing
-- [x] Scheduled transfers
-- [x] Batch transfers
-- [x] Soroswap integration
+### Build Contract
 
-### Q2 2025: Aggregation 🔄
-- [ ] Real-time DEX comparison (Stellar + Soroswap + Phoenix)
-- [ ] Automatic best-pool selection
-- [ ] Path-finding algorithm (Dijkstra)
-- [ ] Frontend swap interface
+```bash
+cd contracts/savex
 
-### Q3 2025: AI Optimization 📊
-- [ ] Historical volatility analysis
-- [ ] Timing recommendations
-- [ ] Batch coordination service
-- [ ] Savings dashboard
+# Build
+stellar contract build
 
-### Q4 2025: Advanced 🚀
-- [ ] Flash arbitrage detection
-- [ ] Path splitting for large swaps
-- [ ] Machine learning price prediction
-- [ ] Cross-DEX market making
+# Deploy to testnet
+stellar contract deploy \
+  --wasm target/wasm32v1-none/release/savex_contract.wasm \
+  --source alice \
+  --network testnet
 
-### 2026: Scale & Growth 🌍
-- [ ] 10+ DEX integrations
-- [ ] Cross-chain bridges (Stellar ↔ ETH)
-- [ ] Mobile app
-- [ ] Enterprise API
+# Initialize
+stellar contract invoke \
+  --id <CONTRACT_ID> \
+  --source alice \
+  --network testnet \
+  -- initialize \
+  --admin <ADMIN_ADDRESS>
 
----
+# Set router
+stellar contract invoke \
+  --id <CONTRACT_ID> \
+  --source alice \
+  --network testnet \
+  -- set_router_address \
+  --admin <ADMIN_ADDRESS> \
+  --router CCMAPXWVZD4USEKDWRYS7DA4Y3D7E2SDMGBFJUCEXTC7VN6CUBGWPFUS
+```
 
-## 🔮 Future Feature: Rate Locking
+### Test Contract
 
-**Status: Researching solutions**
+```bash
+# Run tests
+cd contracts/savex
+cargo test
 
-**Concept:** Lock current exchange rate, execute swap later (24h window)
-
-**Challenge:** How to hedge volatility risk?
-
-**Possible solutions:**
-1. **Require collateral**: User locks funds immediately
-2. **Futures/options**: Use derivatives to hedge price risk
-3. **Limited amounts**: Cap at $100-500 per lock
-4. **Dynamic fees**: Charge more for high-volatility pairs
-
-**Not implemented yet** - needs more research on risk management.
-
----
-
-## 💰 Revenue Model
-
-### Freemium Pricing
-
-| Swap Size | Fee | Notes |
-|-----------|-----|-------|
-| < $100 | Free | Attract users |
-| $100-1,000 | 0.05% | $0.50 on $1000 |
-| $1,000-10,000 | 0.03% | Volume discount |
-| > $10,000 | 0.02% | Best for large traders |
-
-**Alternative:** Take 20% of savings
-- User saves $1.40 → we take $0.28
-- User still saves $1.12 (win-win!)
+# Test specific function
+stellar contract invoke \
+  --id <CONTRACT_ID> \
+  --source alice \
+  --network testnet \
+  -- calculate_fee \
+  --user <USER_ADDRESS> \
+  --amount 100_0000000 \
+  --is_batch false \
+  --batch_size 1
+```
 
 ---
 
 ## 🔐 Security
 
-- **No custody**: Funds only in contract during swap execution
-- **Slippage protection**: Min output amount enforced
-- **Time locks**: Scheduled transfers cancellable before execution
-- **Admin controls**: Pause functionality for emergencies
-- **Open source**: Auditable smart contracts
+- **No Custody**: Funds only in contract during transaction execution
+- **Slippage Protection**: Min output amount enforced
+- **Time Locks**: Scheduled transfers cancellable before execution
+- **Package Validation**: Subscription expiry checks
+- **Admin Controls**: Pause functionality for emergencies
+- **Open Source**: Fully auditable smart contracts
 
 ---
 
-## 🧪 Testing
+## 📚 Documentation
 
-```bash
-# Unit tests
-cd contracts/savex
-cargo test
-
-# Integration tests
-cargo test --test integration
-
-# Testnet deployment test
-./scripts/test_deploy.sh
-```
+- [Contract Coverage Analysis](./CONTRACT_FRONTEND_COVERAGE_ANALYSIS.md)
+- [Arbitrage Integration Guide](./ARBITRAGE_INTEGRATION.md)
+- [Feature Implementation Summary](./FEATURE_IMPLEMENTATION_SUMMARY.md)
+- [Deployment Guide](./DEPLOYMENT.md)
+- [Integration Guide](./INTEGRATION_GUIDE.md)
 
 ---
 
-## 📝 Technical Details
+## 🗺️ Roadmap
 
-### DEX Integration
+### ✅ Q1 2025: Core Features (DONE)
+- [x] Package subscription system
+- [x] Rate locking (24h max)
+- [x] Multi-hop swap routing
+- [x] Scheduled/batch/split transfers
+- [x] Soroswap integration
+- [x] Arbitrage detection & execution
+- [x] DEX aggregation
+- [x] Fee calculator
 
-**Stellar Classic DEX** (Native order book)
-- Path payments
-- Spread: ~0.12%
-- Best for: High liquidity pairs
+### 🔄 Q2 2025: Enhancement
+- [ ] Mobile app (React Native)
+- [ ] Advanced analytics dashboard
+- [ ] Historical savings tracking
+- [ ] Referral program
+- [ ] Flash loan integration
+- [ ] Cross-DEX market making
 
-**Soroswap** (Uniswap V2 fork)
-- Router: `CCMAPXWVZD4USEKDWRYS7DA4Y3D7E2SDMGBFJUCEXTC7VN6CUBGWPFUS` (testnet)
-- Fee: 0.3%
-- Best for: AMM pairs
+### 📊 Q3 2025: AI Optimization
+- [ ] ML-based timing optimization
+- [ ] Volatility prediction
+- [ ] Auto-batch coordination
+- [ ] Smart route caching
+- [ ] Price impact estimation
 
-**Phoenix** (Concentrated liquidity)
-- Fee: 0.05-0.1%
-- Best for: Low slippage
-
-### Smart Contract Functions
-
-See [Contract Documentation](./contracts/savex/README.md) for full API reference.
+### 🚀 Q4 2025: Scale
+- [ ] Phoenix DEX integration
+- [ ] Multi-chain bridges
+- [ ] Enterprise API
+- [ ] Liquidity provision
+- [ ] Governance token
 
 ---
 
@@ -443,33 +452,19 @@ See [Contract Documentation](./contracts/savex/README.md) for full API reference
 
 Contributions welcome! Please:
 1. Fork the repo
-2. Create feature branch
-3. Write tests
-4. Submit PR
-
----
-
-## 📄 License
-
-MIT License - see [LICENSE](./LICENSE)
-
----
-
-## 🔗 Links
-
-- **Stellar**: https://stellar.org
-- **Soroban Docs**: https://soroban.stellar.org
-- **Soroswap**: https://soroswap.finance
-- **Phoenix**: https://phoenix-hub.io
+2. Create feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit changes (`git commit -m 'Add amazing feature'`)
+4. Push to branch (`git push origin feature/amazing-feature`)
+5. Open Pull Request
 
 ---
 
 ## 📞 Contact
 
-- Twitter: [@SaveX_Finance](https://twitter.com/SaveX_Finance)
-- Discord: [Join our community](https://discord.gg/savex)
-- Email: contact@savex.finance
+- GitHub: [@n0tnow](https://github.com/yourusername)
 
 ---
 
-**Built on Stellar 🌟 | Powered by Soroban ⚡**
+**Built on Stellar 🌟 | Powered by Soroban ⚡ | Optimized with AI 🤖**
+
+*Making cross-border transfers cheaper, faster, and smarter.*
