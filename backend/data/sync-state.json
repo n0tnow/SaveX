@@ -1,0 +1,41 @@
+{
+  "pools": {
+    "XLM/USDC": {
+      "poolId": "0000a8198b5e25994c1ca5b0556faeb27325ac746296944144e0a7406d501e8a",
+      "pairName": "XLM/USDC",
+      "reserves": [
+        {
+          "asset": "native",
+          "amount": "0.3717754"
+        },
+        {
+          "asset": "GOLDBANK001:GDEUQ2MX3YXMITFOTC3CO3GW5V3XE3IVG7JKLZZAOZ7WFYIN256INDUS",
+          "amount": "145074570.4929318"
+        }
+      ],
+      "totalShares": "5494.2144063",
+      "feeBp": 30,
+      "lastModified": "2025-11-27T20:16:17Z",
+      "timestamp": "2025-11-29T23:33:47.530Z"
+    },
+    "XLM/AQUA": {
+      "poolId": "0000a8198b5e25994c1ca5b0556faeb27325ac746296944144e0a7406d501e8a",
+      "pairName": "XLM/AQUA",
+      "reserves": [
+        {
+          "asset": "native",
+          "amount": "0.3717754"
+        },
+        {
+          "asset": "GOLDBANK001:GDEUQ2MX3YXMITFOTC3CO3GW5V3XE3IVG7JKLZZAOZ7WFYIN256INDUS",
+          "amount": "145074570.4929318"
+        }
+      ],
+      "totalShares": "5494.2144063",
+      "feeBp": 30,
+      "lastModified": "2025-11-27T20:16:17Z",
+      "timestamp": "2025-11-29T23:33:47.687Z"
+    }
+  },
+  "lastSync": "2025-11-29T23:33:47.688Z"
+}

@@ -50,7 +50,8 @@
       "Bash(timeout 15 npm run dev:*)",
       "Bash(lsof:*)",
       "Bash(xargs kill:*)",
-      "Bash(pkill:*)"
+      "Bash(pkill:*)",
+      "Bash(node --loader ts-node/esm:*)"
     ],
     "deny": [],
     "ask": []

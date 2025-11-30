@@ -1,1 +1,1 @@
-/home/bkaya/SaveX/contracts/savex/target/wasm32v1-none/release/savex_contract.wasm: /home/bkaya/SaveX/contracts/savex/src/lib.rs /home/bkaya/SaveX/contracts/savex/src/test.rs /home/bkaya/SaveX/contracts/savex/src/types.rs
+/home/bkaya/SaveX/contracts/savex/target/wasm32v1-none/release/savex_contract.wasm: /home/bkaya/SaveX/contracts/savex/src/arbitrage.rs /home/bkaya/SaveX/contracts/savex/src/lib.rs /home/bkaya/SaveX/contracts/savex/src/test.rs /home/bkaya/SaveX/contracts/savex/src/types.rs

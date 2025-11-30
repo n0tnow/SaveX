@@ -8,20 +8,36 @@
     "dev": "tsx watch src/index.ts",
     "start": "node dist/index.js",
     "build": "tsc",
-    "collector": "tsx src/collector.ts"
+    "collector": "tsx src/collector.ts",
+    "test:pools": "ts-node scripts/test-pool-sync.ts",
+    "sync:pools": "ts-node src/pool-sync-service.ts",
+    "discover": "tsx src/mainnet-pool-discovery.ts",
+    "select": "tsx src/pool-selector.ts",
+    "prices": "tsx src/coingecko-service.ts",
+    "arbitrage": "tsx src/arbitrage-engine.ts",
+    "deploy": "tsx src/testnet-deployer.ts",
+    "auto-sync": "tsx src/auto-sync-service.ts",
+    "api": "tsx src/api-server.ts",
+    "full-setup": "npm run discover && npm run select && npm run prices && npm run arbitrage"
   },
-  "keywords": ["defi", "stellar", "soroban", "api"],
+  "keywords": [
+    "defi",
+    "stellar",
+    "soroban",
+    "api"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@stellar/stellar-sdk": "^13.0.0",
-    "express": "^4.18.0",
+    "@stellar/stellar-sdk": "^13.3.0",
+    "axios": "^1.13.2",
     "cors": "^2.8.5",
-    "dotenv": "^16.0.0"
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0"
   },
   "devDependencies": {
-    "@types/express": "^4.17.0",
     "@types/cors": "^2.8.0",
+    "@types/express": "^4.17.0",
     "@types/node": "^20.0.0",
     "tsx": "^4.0.0",
     "typescript": "^5.0.0"

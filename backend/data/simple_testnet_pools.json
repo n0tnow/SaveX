@@ -1,0 +1,355 @@
+{
+  "timestamp": "2025-11-30T03:40:46.205Z",
+  "totalDeployed": 17,
+  "sourceAccount": "GASMMTSNTKS5WC7NY5XHKOEG4ZDSRIQTH7QMSVG6JXBPU73IK3G3JUCI",
+  "pools": [
+    {
+      "pairName": "XLM/USDC",
+      "poolId": "7ae4f061e0e98e6cb9574fc82b50c9b1545c655b8a279e50bfa5fa6d74ae264a",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "1000.0000000"
+      },
+      "tokenB": {
+        "symbol": "USDC",
+        "code": "USDC",
+        "issuer": "GASMMTSNTKS5WC7NY5XHKOEG4ZDSRIQTH7QMSVG6JXBPU73IK3G3JUCI",
+        "type": "credit_alphanum4",
+        "amount": "120.0000000"
+      },
+      "liquidityPoolId": "7ae4f061e0e98e6cb9574fc82b50c9b1545c655b8a279e50bfa5fa6d74ae264a",
+      "price": 0.12,
+      "createdAt": "2025-11-30T03:39:25.789Z"
+    },
+    {
+      "pairName": "XLM/USDT",
+      "poolId": "a4e1b33f794a6bacaeda81906661039af0c61ac2014086f5c7320d534d776524",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "1000.0000000"
+      },
+      "tokenB": {
+        "symbol": "USDT",
+        "code": "USDT",
+        "issuer": "GASMMTSNTKS5WC7NY5XHKOEG4ZDSRIQTH7QMSVG6JXBPU73IK3G3JUCI",
+        "type": "credit_alphanum4",
+        "amount": "120.0000000"
+      },
+      "liquidityPoolId": "a4e1b33f794a6bacaeda81906661039af0c61ac2014086f5c7320d534d776524",
+      "price": 0.12,
+      "createdAt": "2025-11-30T03:39:30.902Z"
+    },
+    {
+      "pairName": "XLM/BTC",
+      "poolId": "4affa00f23b37d1dc22b90a38c967d642205a68799e097a74282dac3576e35b7",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "1000.0000000"
+      },
+      "tokenB": {
+        "symbol": "BTC",
+        "code": "BTC",
+        "issuer": "GASMMTSNTKS5WC7NY5XHKOEG4ZDSRIQTH7QMSVG6JXBPU73IK3G3JUCI",
+        "type": "credit_alphanum4",
+        "amount": "0.0013000"
+      },
+      "liquidityPoolId": "4affa00f23b37d1dc22b90a38c967d642205a68799e097a74282dac3576e35b7",
+      "price": 0.0000013,
+      "createdAt": "2025-11-30T03:39:36.106Z"
+    },
+    {
+      "pairName": "XLM/ETH",
+      "poolId": "9e67cf5728c552a4ffa6bb6b44441126285d6216594e41f9783dc4f25f79f1d9",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "1000.0000000"
+      },
+      "tokenB": {
+        "symbol": "ETH",
+        "code": "ETH",
+        "issuer": "GASMMTSNTKS5WC7NY5XHKOEG4ZDSRIQTH7QMSVG6JXBPU73IK3G3JUCI",
+        "type": "credit_alphanum4",
+        "amount": "0.0350000"
+      },
+      "liquidityPoolId": "9e67cf5728c552a4ffa6bb6b44441126285d6216594e41f9783dc4f25f79f1d9",
+      "price": 0.000035,
+      "createdAt": "2025-11-30T03:39:41.260Z"
+    },
+    {
+      "pairName": "XLM/AQUA",
+      "poolId": "214ef73766c551c70a0777bfbef2866c1917fe29785927939f5c5355847f9af1",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "1000.0000000"
+      },
+      "tokenB": {
+        "symbol": "AQUA",
+        "code": "AQUA",
+        "issuer": "GASMMTSNTKS5WC7NY5XHKOEG4ZDSRIQTH7QMSVG6JXBPU73IK3G3JUCI",
+        "type": "credit_alphanum4",
+        "amount": "10000.0000000"
+      },
+      "liquidityPoolId": "214ef73766c551c70a0777bfbef2866c1917fe29785927939f5c5355847f9af1",
+      "price": 10,
+      "createdAt": "2025-11-30T03:39:46.380Z"
+    },
+    {
+      "pairName": "XLM/yXLM",
+      "poolId": "a623d6cfff28c3d4b994af421a72aec8e2263fad46f8baab27dbd6d001e4be4f",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "1000.0000000"
+      },
+      "tokenB": {
+        "symbol": "yXLM",
+        "code": "yXLM",
+        "issuer": "GASMMTSNTKS5WC7NY5XHKOEG4ZDSRIQTH7QMSVG6JXBPU73IK3G3JUCI",
+        "type": "credit_alphanum4",
+        "amount": "1000.0000000"
+      },
+      "liquidityPoolId": "a623d6cfff28c3d4b994af421a72aec8e2263fad46f8baab27dbd6d001e4be4f",
+      "price": 1,
+      "createdAt": "2025-11-30T03:39:51.491Z"
+    },
+    {
+      "pairName": "XLM/MOBI",
+      "poolId": "2a3ccacab97a7b5844ef2c45e50f045b85696826c74021d4eba54f4d950a3c7a",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "1000.0000000"
+      },
+      "tokenB": {
+        "symbol": "MOBI",
+        "code": "MOBI",
+        "issuer": "GASMMTSNTKS5WC7NY5XHKOEG4ZDSRIQTH7QMSVG6JXBPU73IK3G3JUCI",
+        "type": "credit_alphanum4",
+        "amount": "500.0000000"
+      },
+      "liquidityPoolId": "2a3ccacab97a7b5844ef2c45e50f045b85696826c74021d4eba54f4d950a3c7a",
+      "price": 0.5,
+      "createdAt": "2025-11-30T03:39:55.739Z"
+    },
+    {
+      "pairName": "USDC/USDT",
+      "poolId": "90ea0caab133c882ff3d280b0591abdd1975e3a3b50cae5ae7b57ac9c9f0343d",
+      "tokenA": {
+        "symbol": "USDC",
+        "code": "USDC",
+        "issuer": "GASMMTSNTKS5WC7NY5XHKOEG4ZDSRIQTH7QMSVG6JXBPU73IK3G3JUCI",
+        "type": "credit_alphanum4",
+        "amount": "1000.0000000"
+      },
+      "tokenB": {
+        "symbol": "USDT",
+        "code": "USDT",
+        "issuer": "GASMMTSNTKS5WC7NY5XHKOEG4ZDSRIQTH7QMSVG6JXBPU73IK3G3JUCI",
+        "type": "credit_alphanum4",
+        "amount": "1000.0000000"
+      },
+      "liquidityPoolId": "90ea0caab133c882ff3d280b0591abdd1975e3a3b50cae5ae7b57ac9c9f0343d",
+      "price": 1,
+      "createdAt": "2025-11-30T03:40:00.784Z"
+    },
+    {
+      "pairName": "AQUA/USDC",
+      "poolId": "f0fa6bc4d94e13e0762cd02de78e4c04cbda5b37e369d4d9412d80388d79362f",
+      "tokenA": {
+        "symbol": "AQUA",
+        "code": "AQUA",
+        "issuer": "GASMMTSNTKS5WC7NY5XHKOEG4ZDSRIQTH7QMSVG6JXBPU73IK3G3JUCI",
+        "type": "credit_alphanum4",
+        "amount": "1000.0000000"
+      },
+      "tokenB": {
+        "symbol": "USDC",
+        "code": "USDC",
+        "issuer": "GASMMTSNTKS5WC7NY5XHKOEG4ZDSRIQTH7QMSVG6JXBPU73IK3G3JUCI",
+        "type": "credit_alphanum4",
+        "amount": "12.0000000"
+      },
+      "liquidityPoolId": "f0fa6bc4d94e13e0762cd02de78e4c04cbda5b37e369d4d9412d80388d79362f",
+      "price": 0.012,
+      "createdAt": "2025-11-30T03:40:06.169Z"
+    },
+    {
+      "pairName": "AQUA/yXLM",
+      "poolId": "46beee5ae90b8f17904496d59c811d239f1fade28c253871ce3e2e08bd4ce66e",
+      "tokenA": {
+        "symbol": "AQUA",
+        "code": "AQUA",
+        "issuer": "GASMMTSNTKS5WC7NY5XHKOEG4ZDSRIQTH7QMSVG6JXBPU73IK3G3JUCI",
+        "type": "credit_alphanum4",
+        "amount": "1000.0000000"
+      },
+      "tokenB": {
+        "symbol": "yXLM",
+        "code": "yXLM",
+        "issuer": "GASMMTSNTKS5WC7NY5XHKOEG4ZDSRIQTH7QMSVG6JXBPU73IK3G3JUCI",
+        "type": "credit_alphanum4",
+        "amount": "100.0000000"
+      },
+      "liquidityPoolId": "46beee5ae90b8f17904496d59c811d239f1fade28c253871ce3e2e08bd4ce66e",
+      "price": 0.1,
+      "createdAt": "2025-11-30T03:40:11.289Z"
+    },
+    {
+      "pairName": "MOBI/USDC",
+      "poolId": "cee5c7835e80a5fc69c875a576172c86d5c89a538ecbc96d584bcb72681bb8cb",
+      "tokenA": {
+        "symbol": "MOBI",
+        "code": "MOBI",
+        "issuer": "GASMMTSNTKS5WC7NY5XHKOEG4ZDSRIQTH7QMSVG6JXBPU73IK3G3JUCI",
+        "type": "credit_alphanum4",
+        "amount": "1000.0000000"
+      },
+      "tokenB": {
+        "symbol": "USDC",
+        "code": "USDC",
+        "issuer": "GASMMTSNTKS5WC7NY5XHKOEG4ZDSRIQTH7QMSVG6JXBPU73IK3G3JUCI",
+        "type": "credit_alphanum4",
+        "amount": "240.0000000"
+      },
+      "liquidityPoolId": "cee5c7835e80a5fc69c875a576172c86d5c89a538ecbc96d584bcb72681bb8cb",
+      "price": 0.24,
+      "createdAt": "2025-11-30T03:40:16.197Z"
+    },
+    {
+      "pairName": "XLM/TERN",
+      "poolId": "04c9d37ae074883e6a7872d0fb46f99de47bee26eb5463ef17a0a323b99531f6",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "1000.0000000"
+      },
+      "tokenB": {
+        "symbol": "TERN",
+        "code": "TERN",
+        "issuer": "GASMMTSNTKS5WC7NY5XHKOEG4ZDSRIQTH7QMSVG6JXBPU73IK3G3JUCI",
+        "type": "credit_alphanum4",
+        "amount": "50000.0000000"
+      },
+      "liquidityPoolId": "04c9d37ae074883e6a7872d0fb46f99de47bee26eb5463ef17a0a323b99531f6",
+      "price": 50,
+      "createdAt": "2025-11-30T03:40:21.336Z"
+    },
+    {
+      "pairName": "XLM/RIO",
+      "poolId": "6af876de586f79e65ed5ce2bcbd85afb1c551a467cfac6c5fc287f4be8dc9390",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "1000.0000000"
+      },
+      "tokenB": {
+        "symbol": "RIO",
+        "code": "RIO",
+        "issuer": "GASMMTSNTKS5WC7NY5XHKOEG4ZDSRIQTH7QMSVG6JXBPU73IK3G3JUCI",
+        "type": "credit_alphanum4",
+        "amount": "2000.0000000"
+      },
+      "liquidityPoolId": "6af876de586f79e65ed5ce2bcbd85afb1c551a467cfac6c5fc287f4be8dc9390",
+      "price": 2,
+      "createdAt": "2025-11-30T03:40:25.717Z"
+    },
+    {
+      "pairName": "TERN/USDC",
+      "poolId": "64d6beaeb35c3b55db8f6a04e240d8fd7eb108e384731068206c441c73efce49",
+      "tokenA": {
+        "symbol": "TERN",
+        "code": "TERN",
+        "issuer": "GASMMTSNTKS5WC7NY5XHKOEG4ZDSRIQTH7QMSVG6JXBPU73IK3G3JUCI",
+        "type": "credit_alphanum4",
+        "amount": "1000.0000000"
+      },
+      "tokenB": {
+        "symbol": "USDC",
+        "code": "USDC",
+        "issuer": "GASMMTSNTKS5WC7NY5XHKOEG4ZDSRIQTH7QMSVG6JXBPU73IK3G3JUCI",
+        "type": "credit_alphanum4",
+        "amount": "2.4000000"
+      },
+      "liquidityPoolId": "64d6beaeb35c3b55db8f6a04e240d8fd7eb108e384731068206c441c73efce49",
+      "price": 0.0024,
+      "createdAt": "2025-11-30T03:40:31.126Z"
+    },
+    {
+      "pairName": "RIO/USDC",
+      "poolId": "90af0fa2b423cb5098319973ba7356a3799a99d20a07da9a6cff9f3543baa2e7",
+      "tokenA": {
+        "symbol": "RIO",
+        "code": "RIO",
+        "issuer": "GASMMTSNTKS5WC7NY5XHKOEG4ZDSRIQTH7QMSVG6JXBPU73IK3G3JUCI",
+        "type": "credit_alphanum4",
+        "amount": "1000.0000000"
+      },
+      "tokenB": {
+        "symbol": "USDC",
+        "code": "USDC",
+        "issuer": "GASMMTSNTKS5WC7NY5XHKOEG4ZDSRIQTH7QMSVG6JXBPU73IK3G3JUCI",
+        "type": "credit_alphanum4",
+        "amount": "60.0000000"
+      },
+      "liquidityPoolId": "90af0fa2b423cb5098319973ba7356a3799a99d20a07da9a6cff9f3543baa2e7",
+      "price": 0.06,
+      "createdAt": "2025-11-30T03:40:35.967Z"
+    },
+    {
+      "pairName": "AQUA/TERN",
+      "poolId": "149ef067f373c75c880adf302801b11d7f21e2f3586b8e40b6d0d93d2cd08995",
+      "tokenA": {
+        "symbol": "AQUA",
+        "code": "AQUA",
+        "issuer": "GASMMTSNTKS5WC7NY5XHKOEG4ZDSRIQTH7QMSVG6JXBPU73IK3G3JUCI",
+        "type": "credit_alphanum4",
+        "amount": "1000.0000000"
+      },
+      "tokenB": {
+        "symbol": "TERN",
+        "code": "TERN",
+        "issuer": "GASMMTSNTKS5WC7NY5XHKOEG4ZDSRIQTH7QMSVG6JXBPU73IK3G3JUCI",
+        "type": "credit_alphanum4",
+        "amount": "5000.0000000"
+      },
+      "liquidityPoolId": "149ef067f373c75c880adf302801b11d7f21e2f3586b8e40b6d0d93d2cd08995",
+      "price": 5,
+      "createdAt": "2025-11-30T03:40:41.365Z"
+    },
+    {
+      "pairName": "MOBI/yXLM",
+      "poolId": "aa6540ca2eae512aa2cb798b37d8d84b3180c74fab9bc399390b67a97bb3688a",
+      "tokenA": {
+        "symbol": "MOBI",
+        "code": "MOBI",
+        "issuer": "GASMMTSNTKS5WC7NY5XHKOEG4ZDSRIQTH7QMSVG6JXBPU73IK3G3JUCI",
+        "type": "credit_alphanum4",
+        "amount": "1000.0000000"
+      },
+      "tokenB": {
+        "symbol": "yXLM",
+        "code": "yXLM",
+        "issuer": "GASMMTSNTKS5WC7NY5XHKOEG4ZDSRIQTH7QMSVG6JXBPU73IK3G3JUCI",
+        "type": "credit_alphanum4",
+        "amount": "2000.0000000"
+      },
+      "liquidityPoolId": "aa6540ca2eae512aa2cb798b37d8d84b3180c74fab9bc399390b67a97bb3688a",
+      "price": 2,
+      "createdAt": "2025-11-30T03:40:46.204Z"
+    }
+  ]
+}

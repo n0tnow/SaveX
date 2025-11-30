@@ -6,10 +6,12 @@
 #![no_std]
 
 mod types;
+mod arbitrage;
 
 use soroban_sdk::{contract, contractclient, contractimpl, token, Address, Env, Vec};
 
 pub use types::*;
+pub use arbitrage::*;
 
 // ============================================================================
 // Soroswap Interfaces

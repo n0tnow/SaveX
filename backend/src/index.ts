@@ -7,6 +7,7 @@ import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import { getPoolsData, getPoolById } from './pools.js';
+import { startSyncService } from './pool-sync-service.js';
 
 dotenv.config();
 
@@ -108,4 +109,18 @@ app.listen(PORT, () => {
   console.log(`   GET  /api/pools            - Get all pools`);
   console.log(`   GET  /api/pools/:address   - Get specific pool`);
   console.log(`   GET  /api/stats            - Get statistics\n`);
+  
+  // Start pool sync service (sürekli çalışır)
+  if (process.env.TESTNET_SECRET_KEY) {
+    const syncInterval = parseInt(process.env.SYNC_INTERVAL_MINUTES || '5');
+    console.log(`🔄 Starting Pool Sync Service...`);
+    console.log(`   Interval: ${syncInterval} minutes`);
+    console.log(`   Mainnet → Testnet pool synchronization active\n`);
+    
+    startSyncService(syncInterval).catch((error) => {
+      console.error('❌ Pool sync service failed to start:', error);
+    });
+  } else {
+    console.log(`⚠️  Pool sync service disabled (TESTNET_SECRET_KEY not set)\n`);
+  }
 });

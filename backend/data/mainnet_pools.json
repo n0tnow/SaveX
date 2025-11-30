@@ -1,0 +1,2479 @@
+{
+  "timestamp": "2025-11-30T03:10:09.526Z",
+  "totalPools": 100,
+  "source": "Stellar Mainnet",
+  "pools": [
+    {
+      "pairName": "XLM/AAVE",
+      "poolId": "ffff7fe3743b3c63b12e80f22aed5e8799aa986e25fe155a19277b660d547e71",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "1.6374287"
+      },
+      "tokenB": {
+        "symbol": "AAVE",
+        "code": "AAVE",
+        "issuer": "GDTGN34MKUEO4BTJET4SX6TCRQ72FS2TPDNFO6JDXXVL4PNBSREHD2D5",
+        "type": "credit_alphanum4",
+        "amount": "157892432.1726389"
+      },
+      "liquidityPoolId": "ffff7fe3743b3c63b12e80f22aed5e8799aa986e25fe155a19277b660d547e71",
+      "totalShares": "15653.2744178",
+      "totalTrustlines": "1",
+      "reserveA": "1.6374287",
+      "reserveB": "157892432.1726389",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.525Z"
+    },
+    {
+      "pairName": "XLM/META",
+      "poolId": "fffda4cef31fa619b605cbd16973f2ddc1139d766a1856f2ce395bf0e0e96455",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "0.3137193"
+      },
+      "tokenB": {
+        "symbol": "META",
+        "code": "META",
+        "issuer": "GD2P4DSLHCBNGQ657AZUDGMIOVBQ7M563KQGJX5TRANGBQ37WHGIUMRN",
+        "type": "credit_alphanum4",
+        "amount": "239425.7361822"
+      },
+      "liquidityPoolId": "fffda4cef31fa619b605cbd16973f2ddc1139d766a1856f2ce395bf0e0e96455",
+      "totalShares": "226.4926224",
+      "totalTrustlines": "2",
+      "reserveA": "0.3137193",
+      "reserveB": "239425.7361822",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "MOBI/ETFlumens",
+      "poolId": "fffc1c3c321fb5b2784bd058ef84247cac00df8e5e21608c8384e99153e98801",
+      "tokenA": {
+        "symbol": "MOBI",
+        "code": "MOBI",
+        "issuer": "GA6HCMBLTZS5VYYBCATRBRZ3BZJMAFUDKYYF6AH6MVCMGWMRDNSWJPIH",
+        "type": "credit_alphanum4",
+        "amount": "117.0364899"
+      },
+      "tokenB": {
+        "symbol": "ETFlumens",
+        "code": "ETFlumens",
+        "issuer": "GA6HZSJ2PPM27RDOOK7BFVMUUNCXHUZNR34GMHX7TW4IDFZFSWA5XVIY",
+        "type": "credit_alphanum4",
+        "amount": "1.9963439"
+      },
+      "liquidityPoolId": "fffc1c3c321fb5b2784bd058ef84247cac00df8e5e21608c8384e99153e98801",
+      "totalShares": "13.6195012",
+      "totalTrustlines": "1",
+      "reserveA": "117.0364899",
+      "reserveB": "1.9963439",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "VRL/WGUARDIAN",
+      "poolId": "fffb07cb73f9363521c0cbb5b33cc499e1ee33ca97f57095610780ed6ea725e5",
+      "tokenA": {
+        "symbol": "VRL",
+        "code": "VRL",
+        "issuer": "GCR6FENAHT7GO5W4JEMUXCRZOZ2TDO457OWQHEJYTFNLTOZHKKJBXCWX",
+        "type": "credit_alphanum4",
+        "amount": "628267392.6326608"
+      },
+      "tokenB": {
+        "symbol": "WGUARDIAN",
+        "code": "WGUARDIAN",
+        "issuer": "GBYBVWOOVC4EJVRIF4HMWG5B7POLCS7JRPY5KYR3BCLEK24IJQOGUARD",
+        "type": "credit_alphanum4",
+        "amount": "5788.5612150"
+      },
+      "liquidityPoolId": "fffb07cb73f9363521c0cbb5b33cc499e1ee33ca97f57095610780ed6ea725e5",
+      "totalShares": "1581138.8300841",
+      "totalTrustlines": "1",
+      "reserveA": "628267392.6326608",
+      "reserveB": "5788.5612150",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "XLM/BO",
+      "poolId": "fff78339b676d3e4e0c504ffecf383b4811cd47819182076d4765046e60779c6",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "0.0105939"
+      },
+      "tokenB": {
+        "symbol": "BO",
+        "code": "BO",
+        "issuer": "GBTIZPUBL3BWI2TPIUVAMCSH5TG3XBYEB7WCGLQXULW3I7C4X24UXR3X",
+        "type": "credit_alphanum4",
+        "amount": "104317.9027355"
+      },
+      "liquidityPoolId": "fff78339b676d3e4e0c504ffecf383b4811cd47819182076d4765046e60779c6",
+      "totalShares": "30.0000000",
+      "totalTrustlines": "1",
+      "reserveA": "0.0105939",
+      "reserveB": "104317.9027355",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "XRPBANK79/XRPBRIDGE79",
+      "poolId": "fff77ffdfccb25e5e615f68a17be842e6fad7633f231e1c8c80b3a6d4a87682f",
+      "tokenA": {
+        "symbol": "XRPBANK79",
+        "code": "XRPBANK79",
+        "issuer": "GAUCPLSPBJKOSN7WZK6SDD2BYPQMC3YSWMLX4XXY7S4JPQFLJXEINDUS",
+        "type": "credit_alphanum4",
+        "amount": "706679.1999990"
+      },
+      "tokenB": {
+        "symbol": "XRPBRIDGE79",
+        "code": "XRPBRIDGE79",
+        "issuer": "GAUCPLSPBJKOSN7WZK6SDD2BYPQMC3YSWMLX4XXY7S4JPQFLJXEINDUS",
+        "type": "credit_alphanum4",
+        "amount": "14771183.3073440"
+      },
+      "liquidityPoolId": "fff77ffdfccb25e5e615f68a17be842e6fad7633f231e1c8c80b3a6d4a87682f",
+      "totalShares": "3091474.6194170",
+      "totalTrustlines": "1",
+      "reserveA": "706679.1999990",
+      "reserveB": "14771183.3073440",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "RIO/TERN",
+      "poolId": "ffeb35571c58e08f25019ce02937a28a4800e11c4bad88485813605ae0b8536d",
+      "tokenA": {
+        "symbol": "RIO",
+        "code": "RIO",
+        "issuer": "GBNLJIYH34UWO5YZFA3A3HD3N76R6DOI33N4JONUOHEEYZYCAYTEJ5AK",
+        "type": "credit_alphanum4",
+        "amount": "73.9941355"
+      },
+      "tokenB": {
+        "symbol": "TERN",
+        "code": "TERN",
+        "issuer": "GDGQDVO6XPFSY4NMX75A7AOVYCF5JYGW2SHCJJNWCQWIDGOZB53DGP6C",
+        "type": "credit_alphanum4",
+        "amount": "30255.2146971"
+      },
+      "liquidityPoolId": "ffeb35571c58e08f25019ce02937a28a4800e11c4bad88485813605ae0b8536d",
+      "totalShares": "1153.2613053",
+      "totalTrustlines": "2",
+      "reserveA": "73.9941355",
+      "reserveB": "30255.2146971",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "XLM/FLR",
+      "poolId": "ffea0044566aaad26fa8c0c6a77217e04f82c488e520c2380ad0821572c91b55",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "1.9717357"
+      },
+      "tokenB": {
+        "symbol": "FLR",
+        "code": "FLR",
+        "issuer": "GDNDCCOLSMD5I6TRVEQFHZ6FS2J2WK2KPR6UNUQIGVHR5GNOBL6FYZDX",
+        "type": "credit_alphanum4",
+        "amount": "54217042.9647285"
+      },
+      "liquidityPoolId": "ffea0044566aaad26fa8c0c6a77217e04f82c488e520c2380ad0821572c91b55",
+      "totalShares": "10000.0000000",
+      "totalTrustlines": "1",
+      "reserveA": "1.9717357",
+      "reserveB": "54217042.9647285",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "AQUA/XRPASUS",
+      "poolId": "ffe9cf27de9a81bd4ff5660f88a4d4ab3a05f7eafb57fa5c98e8afabe5e39fdd",
+      "tokenA": {
+        "symbol": "AQUA",
+        "code": "AQUA",
+        "issuer": "GBNZILSTVQZ4R7IKQDGHYGY2QXL5QOFJYQMXPKWRRM5PAV7Y4M67AQUA",
+        "type": "credit_alphanum4",
+        "amount": "3.2977259"
+      },
+      "tokenB": {
+        "symbol": "XRPASUS",
+        "code": "XRPASUS",
+        "issuer": "GA2V2LO3ZS6RPMIBWUUWKGUHVPCTSDRLN2MVVSCM7NV7G72UX36XRIPL",
+        "type": "credit_alphanum4",
+        "amount": "490980384.3771884"
+      },
+      "liquidityPoolId": "ffe9cf27de9a81bd4ff5660f88a4d4ab3a05f7eafb57fa5c98e8afabe5e39fdd",
+      "totalShares": "35520.7984848",
+      "totalTrustlines": "1",
+      "reserveA": "3.2977259",
+      "reserveB": "490980384.3771884",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "XLM/QSAF",
+      "poolId": "ffe76f1300a1d72bcec0ee41903f15845ad75ea58d564c356b25d06a89a1300a",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "20.9020447"
+      },
+      "tokenB": {
+        "symbol": "QSAF",
+        "code": "QSAF",
+        "issuer": "GBEQOGFT6Y5PPETYO4W5ZFMU7J5KGJJNNOHGJNSZQKDT2QDOQSY4TJXU",
+        "type": "credit_alphanum4",
+        "amount": "1458.4491353"
+      },
+      "liquidityPoolId": "ffe76f1300a1d72bcec0ee41903f15845ad75ea58d564c356b25d06a89a1300a",
+      "totalShares": "51.6528278",
+      "totalTrustlines": "2",
+      "reserveA": "20.9020447",
+      "reserveB": "1458.4491353",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "NGNC/xRUNES",
+      "poolId": "ffe6b7f624eecdbebf8aa2afa76d40d0155c99e86ec6e6752f94926450446053",
+      "tokenA": {
+        "symbol": "NGNC",
+        "code": "NGNC",
+        "issuer": "GASBV6W7GGED66MXEVC7YZHTWWYMSVYEY35USF2HJZBLABLYIFQGXZY6",
+        "type": "credit_alphanum4",
+        "amount": "1130.8604568"
+      },
+      "tokenB": {
+        "symbol": "xRUNES",
+        "code": "xRUNES",
+        "issuer": "GCLQS7XDYZN4KPW5STJVVLHSSYH5DYBQXDCMZG5PCWBGTX2EAUI54ZCS",
+        "type": "credit_alphanum4",
+        "amount": "593.0962251"
+      },
+      "liquidityPoolId": "ffe6b7f624eecdbebf8aa2afa76d40d0155c99e86ec6e6752f94926450446053",
+      "totalShares": "765.8308444",
+      "totalTrustlines": "1",
+      "reserveA": "1130.8604568",
+      "reserveB": "593.0962251",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "XLM/OKB",
+      "poolId": "ffe608393aa3c3766ba45c9b2cc456c5584fde23b552b756d902548fafbcaddf",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "1.4915955"
+      },
+      "tokenB": {
+        "symbol": "OKB",
+        "code": "OKB",
+        "issuer": "GCX2OWUD2WUNWAYC6MWUGRW3VZPASABZ23YM3KU4NZPAWA2RSUVL6UT5",
+        "type": "credit_alphanum4",
+        "amount": "684365741.6571247"
+      },
+      "liquidityPoolId": "ffe608393aa3c3766ba45c9b2cc456c5584fde23b552b756d902548fafbcaddf",
+      "totalShares": "31306.5488356",
+      "totalTrustlines": "1",
+      "reserveA": "1.4915955",
+      "reserveB": "684365741.6571247",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "INDUSXUK/WGUARDIAN",
+      "poolId": "ffe3107ad6d2b075ca4d62a7ce13b281f70248474043b37721465b923f5b7158",
+      "tokenA": {
+        "symbol": "INDUSXUK",
+        "code": "INDUSXUK",
+        "issuer": "GDEUQ2MX3YXMITFOTC3CO3GW5V3XE3IVG7JKLZZAOZ7WFYIN256INDUS",
+        "type": "credit_alphanum4",
+        "amount": "887880.0785033"
+      },
+      "tokenB": {
+        "symbol": "WGUARDIAN",
+        "code": "WGUARDIAN",
+        "issuer": "GBYBVWOOVC4EJVRIF4HMWG5B7POLCS7JRPY5KYR3BCLEK24IJQOGUARD",
+        "type": "credit_alphanum4",
+        "amount": "207.6583261"
+      },
+      "liquidityPoolId": "ffe3107ad6d2b075ca4d62a7ce13b281f70248474043b37721465b923f5b7158",
+      "totalShares": "11740.6812032",
+      "totalTrustlines": "1",
+      "reserveA": "887880.0785033",
+      "reserveB": "207.6583261",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "XLM/XDC",
+      "poolId": "ffe1a772a05d077b0734b772ee224636ebf05c62dc21f63a645c488df6fe8028",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "0.6940987"
+      },
+      "tokenB": {
+        "symbol": "XDC",
+        "code": "XDC",
+        "issuer": "GASDZG2WSWRXBGP5X24J4HILOVKHGFPE4YUN2PCEJK7M2HBKX7C3M5VZ",
+        "type": "credit_alphanum4",
+        "amount": "15789.5759611"
+      },
+      "liquidityPoolId": "ffe1a772a05d077b0734b772ee224636ebf05c62dc21f63a645c488df6fe8028",
+      "totalShares": "104.0136520",
+      "totalTrustlines": "2",
+      "reserveA": "0.6940987",
+      "reserveB": "15789.5759611",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "ATLANTIC/BLACKROCK",
+      "poolId": "ffe166091fbad345172293a5f4f2b60543c317be3ad06c6312ef171599b63f4d",
+      "tokenA": {
+        "symbol": "ATLANTIC",
+        "code": "ATLANTIC",
+        "issuer": "GD3DBHNZLMX3LU3KYIOFYYDSPE3WPTJIXREQXYRKNYXZF2WPY7MGXUZU",
+        "type": "credit_alphanum4",
+        "amount": "13412509420.4973048"
+      },
+      "tokenB": {
+        "symbol": "BLACKROCK",
+        "code": "BLACKROCK",
+        "issuer": "GD3DBHNZLMX3LU3KYIOFYYDSPE3WPTJIXREQXYRKNYXZF2WPY7MGXUZU",
+        "type": "credit_alphanum4",
+        "amount": "6921351218.6888666"
+      },
+      "liquidityPoolId": "ffe166091fbad345172293a5f4f2b60543c317be3ad06c6312ef171599b63f4d",
+      "totalShares": "8660254037.8443864",
+      "totalTrustlines": "1",
+      "reserveA": "13412509420.4973048",
+      "reserveB": "6921351218.6888666",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "Ral/USD",
+      "poolId": "ffe1365929de7245de8a53959d4bea274ce9fde3c86f682d67156f10346a601e",
+      "tokenA": {
+        "symbol": "Ral",
+        "code": "Ral",
+        "issuer": "GDIPUPLA4BOINFWB4TQURSOUCGSUYTCB7BC6XBXH7ZRY454R2GN2UTHV",
+        "type": "credit_alphanum4",
+        "amount": "167419.2293636"
+      },
+      "tokenB": {
+        "symbol": "USD",
+        "code": "USD",
+        "issuer": "GDUKMGUGDZQK6YHYA5Z6AY2G4XDSZPSZ3SW5UN3ARVMO6QSRDWP5YLEX",
+        "type": "credit_alphanum4",
+        "amount": "0.6611404"
+      },
+      "liquidityPoolId": "ffe1365929de7245de8a53959d4bea274ce9fde3c86f682d67156f10346a601e",
+      "totalShares": "325.1956549",
+      "totalTrustlines": "1",
+      "reserveA": "167419.2293636",
+      "reserveB": "0.6611404",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "XLM/DMART",
+      "poolId": "ffe0ff954940fb63d7f2203d3ea673a52a838f363a69b869c61e62e93a428aa0",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "0.0120721"
+      },
+      "tokenB": {
+        "symbol": "DMART",
+        "code": "DMART",
+        "issuer": "GCAL7CHEHVGEZ5L3HOWBLBPBM33ILG72PZR3VWIX6NN3RZTFJO7PGFP6",
+        "type": "credit_alphanum4",
+        "amount": "14671722.2420355"
+      },
+      "liquidityPoolId": "ffe0ff954940fb63d7f2203d3ea673a52a838f363a69b869c61e62e93a428aa0",
+      "totalShares": "396.5426711",
+      "totalTrustlines": "1",
+      "reserveA": "0.0120721",
+      "reserveB": "14671722.2420355",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "XLM/QNT",
+      "poolId": "ffe08f16fe6ac6f7ba429813f82ed595147ba16657b94565e361afbd397c798b",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "0.0004294"
+      },
+      "tokenB": {
+        "symbol": "QNT",
+        "code": "QNT",
+        "issuer": "GAYEYN65Z424XOHKJ3NFXDX5E5BH6IPRWHM7K4J3GLQUKB2XRRZUIJ6E",
+        "type": "credit_alphanum4",
+        "amount": "234.9381108"
+      },
+      "liquidityPoolId": "ffe08f16fe6ac6f7ba429813f82ed595147ba16657b94565e361afbd397c798b",
+      "totalShares": "0.3162577",
+      "totalTrustlines": "1",
+      "reserveA": "0.0004294",
+      "reserveB": "234.9381108",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "XLM/AMAZON",
+      "poolId": "ffe06adfd3ceb3fcb36eeaf4c8d44272d3cf04a4ddb0e72bf2fcaa8d1e3168a7",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "5.1824007"
+      },
+      "tokenB": {
+        "symbol": "AMAZON",
+        "code": "AMAZON",
+        "issuer": "GDBDQW5LLIB3BM5ZZSHMDMAK27SMAUARSBTDWM3CNL6CCWMTPG7JI3SO",
+        "type": "credit_alphanum4",
+        "amount": "187360.6255595"
+      },
+      "liquidityPoolId": "ffe06adfd3ceb3fcb36eeaf4c8d44272d3cf04a4ddb0e72bf2fcaa8d1e3168a7",
+      "totalShares": "959.8414396",
+      "totalTrustlines": "1",
+      "reserveA": "5.1824007",
+      "reserveB": "187360.6255595",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "FVI/GUARDIAN",
+      "poolId": "ffde9c4d8b387ccd5cb89b733cfecef5ade2994b8ca0678aa50752102c676ad6",
+      "tokenA": {
+        "symbol": "FVI",
+        "code": "FVI",
+        "issuer": "GDRIDC2S3EVMWU5C6MF2COKCN7WJ74RU4WCCKAGLYI3KJHLXJB644FWM",
+        "type": "credit_alphanum4",
+        "amount": "1974711580.8004598"
+      },
+      "tokenB": {
+        "symbol": "GUARDIAN",
+        "code": "GUARDIAN",
+        "issuer": "GB2Z42DRDOLLRLH62JFM3EC35DHD2KPETP6KKMX7EYKLFZEUXGGXG7L6",
+        "type": "credit_alphanum4",
+        "amount": "480.2027478"
+      },
+      "liquidityPoolId": "ffde9c4d8b387ccd5cb89b733cfecef5ade2994b8ca0678aa50752102c676ad6",
+      "totalShares": "612372.4356957",
+      "totalTrustlines": "1",
+      "reserveA": "1974711580.8004598",
+      "reserveB": "480.2027478",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "abXTZ/aeCOMP",
+      "poolId": "ffde411886bdec82b24775692b48a726024494618fc1cb6385dbebba0e0a35a1",
+      "tokenA": {
+        "symbol": "abXTZ",
+        "code": "abXTZ",
+        "issuer": "GBSYRBKKTENKNHOSIZFHJIQPO4NOUQWDZ6L3BZD63XOOZ7RRTUKEPBDG",
+        "type": "credit_alphanum4",
+        "amount": "180.0000000"
+      },
+      "tokenB": {
+        "symbol": "aeCOMP",
+        "code": "aeCOMP",
+        "issuer": "GC52R2BVCR25IE5QGEWCCWXHZMC3ZI2CP3PR5YWECMWLDNEKOZ2VMBDG",
+        "type": "credit_alphanum4",
+        "amount": "169.2307692"
+      },
+      "liquidityPoolId": "ffde411886bdec82b24775692b48a726024494618fc1cb6385dbebba0e0a35a1",
+      "totalShares": "174.5323421",
+      "totalTrustlines": "1",
+      "reserveA": "180.0000000",
+      "reserveB": "169.2307692",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "CVC/WGUARDIAN",
+      "poolId": "ffdd052bba6583161a66403ef9f49ac4e909bd5a4be57103fe724f38442880b0",
+      "tokenA": {
+        "symbol": "CVC",
+        "code": "CVC",
+        "issuer": "GD3DBHNZLMX3LU3KYIOFYYDSPE3WPTJIXREQXYRKNYXZF2WPY7MGXUZU",
+        "type": "credit_alphanum4",
+        "amount": "6970814155.7012177"
+      },
+      "tokenB": {
+        "symbol": "WGUARDIAN",
+        "code": "WGUARDIAN",
+        "issuer": "GBYBVWOOVC4EJVRIF4HMWG5B7POLCS7JRPY5KYR3BCLEK24IJQOGUARD",
+        "type": "credit_alphanum4",
+        "amount": "13247.2804218"
+      },
+      "liquidityPoolId": "ffdd052bba6583161a66403ef9f49ac4e909bd5a4be57103fe724f38442880b0",
+      "totalShares": "8440791.6415018",
+      "totalTrustlines": "1",
+      "reserveA": "6970814155.7012177",
+      "reserveB": "13247.2804218",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "WXT/TREAD",
+      "poolId": "ffdc96d1b30f4c07418990e2aa34fb86c733286a58ca5896178795d7121dfb00",
+      "tokenA": {
+        "symbol": "WXT",
+        "code": "WXT",
+        "issuer": "GASBLVHS5FOABSDNW5SPPH3QRJYXY5JHA2AOA2QHH2FJLZBRXSG4SWXT",
+        "type": "credit_alphanum4",
+        "amount": "13617.1482769"
+      },
+      "tokenB": {
+        "symbol": "TREAD",
+        "code": "TREAD",
+        "issuer": "GANMKTF7SVYEHZ4CTLRKT2MG2OUJNDEA3JGZGTUTHQZOZSWJHHUF6VLM",
+        "type": "credit_alphanum4",
+        "amount": "33.2700732"
+      },
+      "liquidityPoolId": "ffdc96d1b30f4c07418990e2aa34fb86c733286a58ca5896178795d7121dfb00",
+      "totalShares": "545.4316625",
+      "totalTrustlines": "1",
+      "reserveA": "13617.1482769",
+      "reserveB": "33.2700732",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "GOLDBANK058/INDUSXGOLD",
+      "poolId": "ffd7f0bf440db40ed600ad56476f04308a7fade90e84097ae591f8626bb65f48",
+      "tokenA": {
+        "symbol": "GOLDBANK058",
+        "code": "GOLDBANK058",
+        "issuer": "GDEUQ2MX3YXMITFOTC3CO3GW5V3XE3IVG7JKLZZAOZ7WFYIN256INDUS",
+        "type": "credit_alphanum4",
+        "amount": "3349691.5249388"
+      },
+      "tokenB": {
+        "symbol": "INDUSXGOLD",
+        "code": "INDUSXGOLD",
+        "issuer": "GAUCPLSPBJKOSN7WZK6SDD2BYPQMC3YSWMLX4XXY7S4JPQFLJXEINDUS",
+        "type": "credit_alphanum4",
+        "amount": "1409253.2019356"
+      },
+      "liquidityPoolId": "ffd7f0bf440db40ed600ad56476f04308a7fade90e84097ae591f8626bb65f48",
+      "totalShares": "2000000.0000000",
+      "totalTrustlines": "1",
+      "reserveA": "3349691.5249388",
+      "reserveB": "1409253.2019356",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "XAU/XRP",
+      "poolId": "ffd7a5ddaeab29e31d3c070b14050c0bafccbf9099a6144e0adcc779822c9093",
+      "tokenA": {
+        "symbol": "XAU",
+        "code": "XAU",
+        "issuer": "GBCB4WO6J4ET55RWK2SVX76LUQ4PQ7TCDHG2YFILQML7D6XR3HACLXAU",
+        "type": "credit_alphanum4",
+        "amount": "406386849.3469392"
+      },
+      "tokenB": {
+        "symbol": "XRP",
+        "code": "XRP",
+        "issuer": "GBXRPL45NPHCVMFFAYZVUVFFVKSIZ362ZXFP7I2ETNQ3QKZMFLPRDTD5",
+        "type": "credit_alphanum4",
+        "amount": "725.8791012"
+      },
+      "liquidityPoolId": "ffd7a5ddaeab29e31d3c070b14050c0bafccbf9099a6144e0adcc779822c9093",
+      "totalShares": "501340.8824324",
+      "totalTrustlines": "5",
+      "reserveA": "406386849.3469392",
+      "reserveB": "725.8791012",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "BRVHRT/NUCLEAR",
+      "poolId": "ffd77bd8b4d8ec0cdefa60fc4764918c51332a7ffbd91ad222bd14696c391834",
+      "tokenA": {
+        "symbol": "BRVHRT",
+        "code": "BRVHRT",
+        "issuer": "GDYZILD5Z4ZVVPKD3TTIIPX22Q4EWT2L6KH6TXYGWYJQF4ZLCXHRCW3M",
+        "type": "credit_alphanum4",
+        "amount": "3387.3129855"
+      },
+      "tokenB": {
+        "symbol": "NUCLEAR",
+        "code": "NUCLEAR",
+        "issuer": "GCESUPDL6Z66Q2NEXS7Y27U6Y4GABY7W7FH2VYS6265AOI5P5FGDSMWN",
+        "type": "credit_alphanum4",
+        "amount": "5929156.1637934"
+      },
+      "liquidityPoolId": "ffd77bd8b4d8ec0cdefa60fc4764918c51332a7ffbd91ad222bd14696c391834",
+      "totalShares": "131212.7831051",
+      "totalTrustlines": "1",
+      "reserveA": "3387.3129855",
+      "reserveB": "5929156.1637934",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "IHAK/INDA",
+      "poolId": "ffd7339a6d7c5f9aa90713f9bc9813b74a2c6014c6fc1aa67e854a18481ca4df",
+      "tokenA": {
+        "symbol": "IHAK",
+        "code": "IHAK",
+        "issuer": "GAEDNYE7JFFD4MIQWFTKEB3BFDXIFF2J53XDG5VYX4GBAVBTJ2A4ZXPT",
+        "type": "credit_alphanum4",
+        "amount": "2500.0000000"
+      },
+      "tokenB": {
+        "symbol": "INDA",
+        "code": "INDA",
+        "issuer": "GAEDNYE7JFFD4MIQWFTKEB3BFDXIFF2J53XDG5VYX4GBAVBTJ2A4ZXPT",
+        "type": "credit_alphanum4",
+        "amount": "2500.0000000"
+      },
+      "liquidityPoolId": "ffd7339a6d7c5f9aa90713f9bc9813b74a2c6014c6fc1aa67e854a18481ca4df",
+      "totalShares": "2500.0000000",
+      "totalTrustlines": "1",
+      "reserveA": "2500.0000000",
+      "reserveB": "2500.0000000",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "FLJ/XMR",
+      "poolId": "ffd6d8073a1b96508ea764e5d9c9f8c1f7a109a6c6f6a3258812f692159f81ee",
+      "tokenA": {
+        "symbol": "FLJ",
+        "code": "FLJ",
+        "issuer": "GD5556X4NAXTRAYYLCIBQO3G6MEXN4IF2HXDUZAU3SYLEJ236Q6W776W",
+        "type": "credit_alphanum4",
+        "amount": "25668107.6869903"
+      },
+      "tokenB": {
+        "symbol": "XMR",
+        "code": "XMR",
+        "issuer": "GBGC4N4OVWW4LKUOR6R5WGB4AQMPINKOFXC76P7DP6YNW5NL2BU2VXMR",
+        "type": "credit_alphanum4",
+        "amount": "7481595.8237980"
+      },
+      "liquidityPoolId": "ffd6d8073a1b96508ea764e5d9c9f8c1f7a109a6c6f6a3258812f692159f81ee",
+      "totalShares": "13856406.4605510",
+      "totalTrustlines": "1",
+      "reserveA": "25668107.6869903",
+      "reserveB": "7481595.8237980",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "BTC/USDC",
+      "poolId": "ffd5d2da2e156047debdc7a7797b3599dc1c651361899d6386d612792b418cba",
+      "tokenA": {
+        "symbol": "BTC",
+        "code": "BTC",
+        "issuer": "GDPJALI4AZKUU2W426U5WKMAT6CN3AJRPIIRYR2YM54TL2GDWO5O2MZM",
+        "type": "credit_alphanum4",
+        "amount": "0.0000237"
+      },
+      "tokenB": {
+        "symbol": "USDC",
+        "code": "USDC",
+        "issuer": "GAQZWFAYPLKBXZTLHC3DLWHCKKZHXI2AWFL3CVB2JEVCBR64ANIN6KRG",
+        "type": "credit_alphanum4",
+        "amount": "193.2538246"
+      },
+      "liquidityPoolId": "ffd5d2da2e156047debdc7a7797b3599dc1c651361899d6386d612792b418cba",
+      "totalShares": "0.0654689",
+      "totalTrustlines": "1",
+      "reserveA": "0.0000237",
+      "reserveB": "193.2538246",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "MIOTA/QHBAR",
+      "poolId": "ffd5133fc080aad4c79cb392fca109a570eae24ecc8865e7d2ffdba500236d68",
+      "tokenA": {
+        "symbol": "MIOTA",
+        "code": "MIOTA",
+        "issuer": "GB7XV6WC5BAPEQD57XQ62LPMRHAXU7I7IQBSGFNYZWHIOX6KKMHCYV3A",
+        "type": "credit_alphanum4",
+        "amount": "87896234.5363616"
+      },
+      "tokenB": {
+        "symbol": "QHBAR",
+        "code": "QHBAR",
+        "issuer": "GBI5LYIRMGOKMVMAV2UYPW2OYSCF6JKLTDNPH4HOGWHRHXITTU76QQQQ",
+        "type": "credit_alphanum4",
+        "amount": "7101716.3375961"
+      },
+      "liquidityPoolId": "ffd5133fc080aad4c79cb392fca109a570eae24ecc8865e7d2ffdba500236d68",
+      "totalShares": "24979993.2181219",
+      "totalTrustlines": "1",
+      "reserveA": "87896234.5363616",
+      "reserveB": "7101716.3375961",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "WGUARDIAN/XRPBRIDGE66",
+      "poolId": "ffd48dbceed432d807d9a3be367d7e1840dc71b2ebce73cd99fb620dcdde16a6",
+      "tokenA": {
+        "symbol": "WGUARDIAN",
+        "code": "WGUARDIAN",
+        "issuer": "GBYBVWOOVC4EJVRIF4HMWG5B7POLCS7JRPY5KYR3BCLEK24IJQOGUARD",
+        "type": "credit_alphanum4",
+        "amount": "73.1157708"
+      },
+      "tokenB": {
+        "symbol": "XRPBRIDGE66",
+        "code": "XRPBRIDGE66",
+        "issuer": "GAUCPLSPBJKOSN7WZK6SDD2BYPQMC3YSWMLX4XXY7S4JPQFLJXEINDUS",
+        "type": "credit_alphanum4",
+        "amount": "1532420.0086781"
+      },
+      "liquidityPoolId": "ffd48dbceed432d807d9a3be367d7e1840dc71b2ebce73cd99fb620dcdde16a6",
+      "totalShares": "9616.9232056",
+      "totalTrustlines": "1",
+      "reserveA": "73.1157708",
+      "reserveB": "1532420.0086781",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "ACTION/XSHIB",
+      "poolId": "ffd2e7366d735f81018188cff4d3823bf0c032509421d03094098daea7f2c091",
+      "tokenA": {
+        "symbol": "ACTION",
+        "code": "ACTION",
+        "issuer": "GABHBO4IAEAKYODTIQC5G43MPD55BREA4P3MAXAMZKLEVQNF3S7PZFDU",
+        "type": "credit_alphanum4",
+        "amount": "3069970.3087761"
+      },
+      "tokenB": {
+        "symbol": "XSHIB",
+        "code": "XSHIB",
+        "issuer": "GCN23IFNJOXUVS6WHGTSBALWXPMH7GSP5VEXA7V4PTPBR2ZFGTAYGDOG",
+        "type": "credit_alphanum4",
+        "amount": "567916048.7724722"
+      },
+      "liquidityPoolId": "ffd2e7366d735f81018188cff4d3823bf0c032509421d03094098daea7f2c091",
+      "totalShares": "38683961.4057767",
+      "totalTrustlines": "2",
+      "reserveA": "3069970.3087761",
+      "reserveB": "567916048.7724722",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "SL/HORSE",
+      "poolId": "ffd2ca342e2bc96b550c4be76423802d7784cb6b4bbda736a49b652ef8964b64",
+      "tokenA": {
+        "symbol": "SL",
+        "code": "SL",
+        "issuer": "GADOIBDB37E4VNXTPV2XYY4B3PRPRBBWPO5LG7NMHSPDEHH2S3PITVZS",
+        "type": "credit_alphanum4",
+        "amount": "28418744.5620489"
+      },
+      "tokenB": {
+        "symbol": "HORSE",
+        "code": "HORSE",
+        "issuer": "GBPJOGJVVJR5QWAV3NK6Z67IUO5FB2O7W3BF2XIXLEOLIVW7PVVHYX5L",
+        "type": "credit_alphanum4",
+        "amount": "342092.3765544"
+      },
+      "liquidityPoolId": "ffd2ca342e2bc96b550c4be76423802d7784cb6b4bbda736a49b652ef8964b64",
+      "totalShares": "3114043.1277609",
+      "totalTrustlines": "1",
+      "reserveA": "28418744.5620489",
+      "reserveB": "342092.3765544",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "GOLD/yETH",
+      "poolId": "ffd1d3d13b4dae185bfd5a5df5bbb782fa64dc76202ffc88ec5b7cc0516ef8a2",
+      "tokenA": {
+        "symbol": "GOLD",
+        "code": "GOLD",
+        "issuer": "GBC5ZGK6MQU3XG5Y72SXPA7P5R5NHYT2475SNEJB2U3EQ6J56QLVGOLD",
+        "type": "credit_alphanum4",
+        "amount": "0.0075527"
+      },
+      "tokenB": {
+        "symbol": "yETH",
+        "code": "yETH",
+        "issuer": "GDYQNEF2UWTK4L6HITMT53MZ6F5QWO3Q4UVE6SCGC4OMEQIZQQDERQFD",
+        "type": "credit_alphanum4",
+        "amount": "0.0002938"
+      },
+      "liquidityPoolId": "ffd1d3d13b4dae185bfd5a5df5bbb782fa64dc76202ffc88ec5b7cc0516ef8a2",
+      "totalShares": "0.0014747",
+      "totalTrustlines": "1",
+      "reserveA": "0.0075527",
+      "reserveB": "0.0002938",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "USDC/OCEANTOKEN",
+      "poolId": "ffd0eb0842967f3ebd84573823c3d5ae3565e1ae00f15905dc538f84a283db24",
+      "tokenA": {
+        "symbol": "USDC",
+        "code": "USDC",
+        "issuer": "GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN",
+        "type": "credit_alphanum4",
+        "amount": "0.0046719"
+      },
+      "tokenB": {
+        "symbol": "OCEANTOKEN",
+        "code": "OCEANTOKEN",
+        "issuer": "GCWYGXMLDEQBIXT5IRLP6H3YYTJ6N43U2XX2EGJENNF4ACP7WOFCVYGO",
+        "type": "credit_alphanum4",
+        "amount": "244.3831364"
+      },
+      "liquidityPoolId": "ffd0eb0842967f3ebd84573823c3d5ae3565e1ae00f15905dc538f84a283db24",
+      "totalShares": "0.9488810",
+      "totalTrustlines": "3",
+      "reserveA": "0.0046719",
+      "reserveB": "244.3831364",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "eBLUE/eRAMP",
+      "poolId": "ffcda3217769447fa37963cf676797f4543747d899f4a3be1cdfe04f246508bd",
+      "tokenA": {
+        "symbol": "eBLUE",
+        "code": "eBLUE",
+        "issuer": "GDT24N3FD3NA3GUAPVW44WEN2VPJ5ZIEAFNC2ADEC74ARE7623W4X5GN",
+        "type": "credit_alphanum4",
+        "amount": "20043747.0223730"
+      },
+      "tokenB": {
+        "symbol": "eRAMP",
+        "code": "eRAMP",
+        "issuer": "GDT24N3FD3NA3GUAPVW44WEN2VPJ5ZIEAFNC2ADEC74ARE7623W4X5GN",
+        "type": "credit_alphanum4",
+        "amount": "19997259.6074689"
+      },
+      "liquidityPoolId": "ffcda3217769447fa37963cf676797f4543747d899f4a3be1cdfe04f246508bd",
+      "totalShares": "20000000.0000000",
+      "totalTrustlines": "1",
+      "reserveA": "20043747.0223730",
+      "reserveB": "19997259.6074689",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "PayPal/QSHIB",
+      "poolId": "ffcd81be8cedf64a7bb76375752d6e76d5a7c484585cc46a96258a5a075b79b5",
+      "tokenA": {
+        "symbol": "PayPal",
+        "code": "PayPal",
+        "issuer": "GCZMVHNYAW2PXGROURRIFD4RSMXYNNC6UFN5L4ARYOIA4E65Z23U6NBM",
+        "type": "credit_alphanum4",
+        "amount": "117499535.4857971"
+      },
+      "tokenB": {
+        "symbol": "QSHIB",
+        "code": "QSHIB",
+        "issuer": "GAL3FWQ4RFBX76ZXUCWIZJVYHBN3ZNIT24QN2ZO7RP3WFB4WALQHQQQQ",
+        "type": "credit_alphanum4",
+        "amount": "198892343.6661287"
+      },
+      "liquidityPoolId": "ffcd81be8cedf64a7bb76375752d6e76d5a7c484585cc46a96258a5a075b79b5",
+      "totalShares": "148288737.9720395",
+      "totalTrustlines": "1",
+      "reserveA": "117499535.4857971",
+      "reserveB": "198892343.6661287",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "XLM/WATER",
+      "poolId": "ffcbef6d90dd0c8c2942c1f6014e420a08ec383390c4f1c9339674027daafc13",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "320.3871531"
+      },
+      "tokenB": {
+        "symbol": "WATER",
+        "code": "WATER",
+        "issuer": "GBN4YJNRQDSHYIYS4AETQVYILT7GKI3GCGAY3CXXGFGZJ23QFXFKQ5AL",
+        "type": "credit_alphanum4",
+        "amount": "122519148.2372866"
+      },
+      "liquidityPoolId": "ffcbef6d90dd0c8c2942c1f6014e420a08ec383390c4f1c9339674027daafc13",
+      "totalShares": "188460.4106967",
+      "totalTrustlines": "1",
+      "reserveA": "320.3871531",
+      "reserveB": "122519148.2372866",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "HOROWITZ/WGUARDIAN",
+      "poolId": "ffcb996a8947307375e769dc33f4c5929f8acd98591c80b9a1b125eb03b00629",
+      "tokenA": {
+        "symbol": "HOROWITZ",
+        "code": "HOROWITZ",
+        "issuer": "GAOEUVUE7WDSWFBYIGMAMAP3V2XALDGVKKBNAT4OW6S7C6KVEPJFSPUV",
+        "type": "credit_alphanum4",
+        "amount": "689706911.6283331"
+      },
+      "tokenB": {
+        "symbol": "WGUARDIAN",
+        "code": "WGUARDIAN",
+        "issuer": "GBYBVWOOVC4EJVRIF4HMWG5B7POLCS7JRPY5KYR3BCLEK24IJQOGUARD",
+        "type": "credit_alphanum4",
+        "amount": "90649.1270727"
+      },
+      "liquidityPoolId": "ffcb996a8947307375e769dc33f4c5929f8acd98591c80b9a1b125eb03b00629",
+      "totalShares": "7464060.3642908",
+      "totalTrustlines": "1",
+      "reserveA": "689706911.6283331",
+      "reserveB": "90649.1270727",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "USDX/XR3",
+      "poolId": "ffca46e773e3f35fb9296bbdf036ccd0b84abf406e6a200eda0d413495d1e2ad",
+      "tokenA": {
+        "symbol": "USDX",
+        "code": "USDX",
+        "issuer": "GAV7LRM2C2IIHEOLQHVITKLQCAAQPSSYFQY4WT4JYDSFYEYYLRUKUSDX",
+        "type": "credit_alphanum4",
+        "amount": "24105180.2305754"
+      },
+      "tokenB": {
+        "symbol": "XR3",
+        "code": "XR3",
+        "issuer": "GCRQXTLNJ5HZJUPMWTRTLEWJINCITTEZL4LVWHYS6AVURHZ77PFMA2FQ",
+        "type": "credit_alphanum4",
+        "amount": "2334382.6751340"
+      },
+      "liquidityPoolId": "ffca46e773e3f35fb9296bbdf036ccd0b84abf406e6a200eda0d413495d1e2ad",
+      "totalShares": "6412341.3530352",
+      "totalTrustlines": "2",
+      "reserveA": "24105180.2305754",
+      "reserveB": "2334382.6751340",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "XLM/eMINING",
+      "poolId": "ffca3ca8ee6f9bda6afb3f7a5f918b4a357b213200dc559793ffb91ad429d2cd",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "0.0300181"
+      },
+      "tokenB": {
+        "symbol": "eMINING",
+        "code": "eMINING",
+        "issuer": "GANJTAAQ5W6YPUSJDHRZFA6SJ4DWX253HI4LXELNB7ZPSPXEO5ORAOJO",
+        "type": "credit_alphanum4",
+        "amount": "3341548.4630740"
+      },
+      "liquidityPoolId": "ffca3ca8ee6f9bda6afb3f7a5f918b4a357b213200dc559793ffb91ad429d2cd",
+      "totalShares": "316.2277660",
+      "totalTrustlines": "1",
+      "reserveA": "0.0300181",
+      "reserveB": "3341548.4630740",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "XLM/NOVA",
+      "poolId": "ffc801a106a33d4bebc695d29f7e297a5ce543107abc49d4f4180c738eeefcdc",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "0.0106299"
+      },
+      "tokenB": {
+        "symbol": "NOVA",
+        "code": "NOVA",
+        "issuer": "GDJSCIRHDGDGEI5SABB4COMUCJXM7S7HJQPHMF2AL3KX4Q4RHWGAQWGQ",
+        "type": "credit_alphanum4",
+        "amount": "113990145.8548903"
+      },
+      "liquidityPoolId": "ffc801a106a33d4bebc695d29f7e297a5ce543107abc49d4f4180c738eeefcdc",
+      "totalShares": "870.1989620",
+      "totalTrustlines": "1",
+      "reserveA": "0.0106299",
+      "reserveB": "113990145.8548903",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "LINKGATE/VECHAIN",
+      "poolId": "ffc6f3e7dddaefb51e913704a9a5647e3a113a33f78c46eab4b1d19b53669d80",
+      "tokenA": {
+        "symbol": "LINKGATE",
+        "code": "LINKGATE",
+        "issuer": "GAKC6CLSWDXD6OCA5QKTGF26DBIP5TOE3QPWPJA7IF2OEJI5D4UUQN5L",
+        "type": "credit_alphanum4",
+        "amount": "50000000.0000000"
+      },
+      "tokenB": {
+        "symbol": "VECHAIN",
+        "code": "VECHAIN",
+        "issuer": "GAKC6CLSWDXD6OCA5QKTGF26DBIP5TOE3QPWPJA7IF2OEJI5D4UUQN5L",
+        "type": "credit_alphanum4",
+        "amount": "50000000.0000000"
+      },
+      "liquidityPoolId": "ffc6f3e7dddaefb51e913704a9a5647e3a113a33f78c46eab4b1d19b53669d80",
+      "totalShares": "50000000.0000000",
+      "totalTrustlines": "1",
+      "reserveA": "50000000.0000000",
+      "reserveB": "50000000.0000000",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "EURC/XAU",
+      "poolId": "ffc67507a08a592cd735a4c1fff6351a80ac06661bff6ca8f71289317d69649e",
+      "tokenA": {
+        "symbol": "EURC",
+        "code": "EURC",
+        "issuer": "GDHU6WRG4IEQXM5NZ4BMPKOXHW76MZM4Y2IEMFDVXBSDP6SJY4ITNPP2",
+        "type": "credit_alphanum4",
+        "amount": "26.9959698"
+      },
+      "tokenB": {
+        "symbol": "XAU",
+        "code": "XAU",
+        "issuer": "GBCB4WO6J4ET55RWK2SVX76LUQ4PQ7TCDHG2YFILQML7D6XR3HACLXAU",
+        "type": "credit_alphanum4",
+        "amount": "7946697.6910610"
+      },
+      "liquidityPoolId": "ffc67507a08a592cd735a4c1fff6351a80ac06661bff6ca8f71289317d69649e",
+      "totalShares": "13821.4027012",
+      "totalTrustlines": "3",
+      "reserveA": "26.9959698",
+      "reserveB": "7946697.6910610",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "EURC/IRIDIUM",
+      "poolId": "ffc1698ffd5845911c21b6352e8281bf9b76631de66547a2c24083f34c23fce4",
+      "tokenA": {
+        "symbol": "EURC",
+        "code": "EURC",
+        "issuer": "GDHU6WRG4IEQXM5NZ4BMPKOXHW76MZM4Y2IEMFDVXBSDP6SJY4ITNPP2",
+        "type": "credit_alphanum4",
+        "amount": "0.0000245"
+      },
+      "tokenB": {
+        "symbol": "IRIDIUM",
+        "code": "IRIDIUM",
+        "issuer": "GDFDFE75IBXNVWXHBUEQPUZ26FRDKCERVY5DNMFCPFYWVW3YUZX2MINE",
+        "type": "credit_alphanum4",
+        "amount": "42.7005312"
+      },
+      "liquidityPoolId": "ffc1698ffd5845911c21b6352e8281bf9b76631de66547a2c24083f34c23fce4",
+      "totalShares": "0.0302376",
+      "totalTrustlines": "1",
+      "reserveA": "0.0000245",
+      "reserveB": "42.7005312",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "AQUA/JURAPROJECT",
+      "poolId": "ffbfb92807eba82ed6e2055141f9329ced5304b2ccb902037ddf944ffbeaa39f",
+      "tokenA": {
+        "symbol": "AQUA",
+        "code": "AQUA",
+        "issuer": "GBNZILSTVQZ4R7IKQDGHYGY2QXL5QOFJYQMXPKWRRM5PAV7Y4M67AQUA",
+        "type": "credit_alphanum4",
+        "amount": "0.0022025"
+      },
+      "tokenB": {
+        "symbol": "JURAPROJECT",
+        "code": "JURAPROJECT",
+        "issuer": "GBXMN4Y5IF6OWC7UWQO32S47LW5RMKQMZGAZUZP4TNKT2B4TF2MQJURA",
+        "type": "credit_alphanum4",
+        "amount": "984.4368307"
+      },
+      "liquidityPoolId": "ffbfb92807eba82ed6e2055141f9329ced5304b2ccb902037ddf944ffbeaa39f",
+      "totalShares": "1.3236691",
+      "totalTrustlines": "1",
+      "reserveA": "0.0022025",
+      "reserveB": "984.4368307",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "QXLM/SILVER",
+      "poolId": "ffbb7669166c0431ebb23dda32ccf41958df6798e04c0e9f1245637f341930c7",
+      "tokenA": {
+        "symbol": "QXLM",
+        "code": "QXLM",
+        "issuer": "GDCV5JAFMPFNS4MXB7OBMXSMCQ73J4MV2CE4VP36ANWQXPCPVFEXQXLM",
+        "type": "credit_alphanum4",
+        "amount": "31145019.6485820"
+      },
+      "tokenB": {
+        "symbol": "SILVER",
+        "code": "SILVER",
+        "issuer": "GDXFXURT5CUNQJP7FVFVLZEVSGO3XXS6AIZUK5357ERBBGE4T4JVOYDJ",
+        "type": "credit_alphanum4",
+        "amount": "361731.1012771"
+      },
+      "liquidityPoolId": "ffbb7669166c0431ebb23dda32ccf41958df6798e04c0e9f1245637f341930c7",
+      "totalShares": "3224954.2194674",
+      "totalTrustlines": "1",
+      "reserveA": "31145019.6485820",
+      "reserveB": "361731.1012771",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "GFI/WGUARDIAN",
+      "poolId": "ffbb6cc4485375940e05ac3ebd927719a01e0cc8ca0e18a2c57fc06362e24814",
+      "tokenA": {
+        "symbol": "GFI",
+        "code": "GFI",
+        "issuer": "GAISQZX2KTMVEOHD3GLRBMQQH2ZY56BUMCLKYGVGT2XWO55FV57KRIGB",
+        "type": "credit_alphanum4",
+        "amount": "5043938229.3178102"
+      },
+      "tokenB": {
+        "symbol": "WGUARDIAN",
+        "code": "WGUARDIAN",
+        "issuer": "GBYBVWOOVC4EJVRIF4HMWG5B7POLCS7JRPY5KYR3BCLEK24IJQOGUARD",
+        "type": "credit_alphanum4",
+        "amount": "17204.7615666"
+      },
+      "liquidityPoolId": "ffbb6cc4485375940e05ac3ebd927719a01e0cc8ca0e18a2c57fc06362e24814",
+      "totalShares": "4379202.1148206",
+      "totalTrustlines": "1",
+      "reserveA": "5043938229.3178102",
+      "reserveB": "17204.7615666",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "BRGOLDBRIDGE/WGUARDIAN",
+      "poolId": "ffb9b85f360cab8ba3638faca1cccebfa5a3fcd1d10315bb8ea7ab48eaae6cdd",
+      "tokenA": {
+        "symbol": "BRGOLDBRIDGE",
+        "code": "BRGOLDBRIDGE",
+        "issuer": "GAUCPLSPBJKOSN7WZK6SDD2BYPQMC3YSWMLX4XXY7S4JPQFLJXEINDUS",
+        "type": "credit_alphanum4",
+        "amount": "10533846.5310901"
+      },
+      "tokenB": {
+        "symbol": "WGUARDIAN",
+        "code": "WGUARDIAN",
+        "issuer": "GBYBVWOOVC4EJVRIF4HMWG5B7POLCS7JRPY5KYR3BCLEK24IJQOGUARD",
+        "type": "credit_alphanum4",
+        "amount": "959.0975383"
+      },
+      "liquidityPoolId": "ffb9b85f360cab8ba3638faca1cccebfa5a3fcd1d10315bb8ea7ab48eaae6cdd",
+      "totalShares": "85348.2523924",
+      "totalTrustlines": "1",
+      "reserveA": "10533846.5310901",
+      "reserveB": "959.0975383",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "GHAGOLD/PSLINK",
+      "poolId": "ffb982de4aa4ccb01257238273a8d349667b93e35d468c04f8bd83b64090b168",
+      "tokenA": {
+        "symbol": "GHAGOLD",
+        "code": "GHAGOLD",
+        "issuer": "GAF3Q3FF6ENZGVN3VEASMFKOJJMKLRQDCH3ZAY7E5SI2VKQ3NNIROMUJ",
+        "type": "credit_alphanum4",
+        "amount": "297872.8388865"
+      },
+      "tokenB": {
+        "symbol": "PSLINK",
+        "code": "PSLINK",
+        "issuer": "GAQHQNVGSBG6SSCMSDTHK4W4ZT4LPPDCTZZ5BBJHQZGKSIL64AYK3PAY",
+        "type": "credit_alphanum4",
+        "amount": "97.0904035"
+      },
+      "liquidityPoolId": "ffb982de4aa4ccb01257238273a8d349667b93e35d468c04f8bd83b64090b168",
+      "totalShares": "5346.8057672",
+      "totalTrustlines": "1",
+      "reserveA": "297872.8388865",
+      "reserveB": "97.0904035",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "BLKR/DicInu",
+      "poolId": "ffb6609647b0acf5c9cc2d35a5743e2abc727e775cfd18ebd58f4bdbbf3af73e",
+      "tokenA": {
+        "symbol": "BLKR",
+        "code": "BLKR",
+        "issuer": "GBCF5G2E5MZDA3EDRCYSRYU3SXF7DYO33FY7TOXNBQL2PLRQ4I2WTIKH",
+        "type": "credit_alphanum4",
+        "amount": "72150.5991947"
+      },
+      "tokenB": {
+        "symbol": "DicInu",
+        "code": "DicInu",
+        "issuer": "GDMNBJWZBNQFCDUDPTG4DFLLUT6WPTMALBNX63OIM2YP5RLULTCFCNEA",
+        "type": "credit_alphanum4",
+        "amount": "1673.4834198"
+      },
+      "liquidityPoolId": "ffb6609647b0acf5c9cc2d35a5743e2abc727e775cfd18ebd58f4bdbbf3af73e",
+      "totalShares": "10615.6300970",
+      "totalTrustlines": "1",
+      "reserveA": "72150.5991947",
+      "reserveB": "1673.4834198",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "XLM/LTC",
+      "poolId": "ffb2c6ab15989c310497d01b4f87b22fcf6fe79c629be799dbcbf104834b75c8",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "1.4951937"
+      },
+      "tokenB": {
+        "symbol": "LTC",
+        "code": "LTC",
+        "issuer": "GCOW4VV4E5HRJISA5Y2HIX3UMXZZSVQDNZXHXKUK32ABRA5ZOT63QUNZ",
+        "type": "credit_alphanum4",
+        "amount": "168605284.3957597"
+      },
+      "liquidityPoolId": "ffb2c6ab15989c310497d01b4f87b22fcf6fe79c629be799dbcbf104834b75c8",
+      "totalShares": "15811.3883008",
+      "totalTrustlines": "1",
+      "reserveA": "1.4951937",
+      "reserveB": "168605284.3957597",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "ZJN/WGUARDIAN",
+      "poolId": "ffb2737fb38a2994278ebacd8d7249ed288e6162e3771a101ddf9388c5504f57",
+      "tokenA": {
+        "symbol": "ZJN",
+        "code": "ZJN",
+        "issuer": "GD2HRU36FANZTA7REURRUQA62IPWLOJALCUZESS5T4BPC24UH7QDD4F2",
+        "type": "credit_alphanum4",
+        "amount": "332839195.9831699"
+      },
+      "tokenB": {
+        "symbol": "WGUARDIAN",
+        "code": "WGUARDIAN",
+        "issuer": "GBYBVWOOVC4EJVRIF4HMWG5B7POLCS7JRPY5KYR3BCLEK24IJQOGUARD",
+        "type": "credit_alphanum4",
+        "amount": "3408.7809646"
+      },
+      "liquidityPoolId": "ffb2737fb38a2994278ebacd8d7249ed288e6162e3771a101ddf9388c5504f57",
+      "totalShares": "657096.4128444",
+      "totalTrustlines": "1",
+      "reserveA": "332839195.9831699",
+      "reserveB": "3408.7809646",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "XLM/STARSHIP",
+      "poolId": "ffaf271927715ffea02e3230ba593547ad52688dc9a05255e7a7de75d55f469d",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "123.2122110"
+      },
+      "tokenB": {
+        "symbol": "STARSHIP",
+        "code": "STARSHIP",
+        "issuer": "GAI7VBAWPUQMRCSCGOMGYPGOTVS6C7OSSVETAPEQMSNOXHLYODDVJZ2X",
+        "type": "credit_alphanum4",
+        "amount": "38132.1801264"
+      },
+      "liquidityPoolId": "ffaf271927715ffea02e3230ba593547ad52688dc9a05255e7a7de75d55f469d",
+      "totalShares": "2154.1416142",
+      "totalTrustlines": "3",
+      "reserveA": "123.2122110",
+      "reserveB": "38132.1801264",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "BASH/SL",
+      "poolId": "ffad3304e5e765b073b00a4cdd2a6a7851f514f09c994749b725e7d1de01b8e7",
+      "tokenA": {
+        "symbol": "BASH",
+        "code": "BASH",
+        "issuer": "GBQ42A3K32ZFOKGB3JJCDXJW7LNAS3GEPQM7J43KYCR7OKVIUON7D65N",
+        "type": "credit_alphanum4",
+        "amount": "58511.1883922"
+      },
+      "tokenB": {
+        "symbol": "SL",
+        "code": "SL",
+        "issuer": "GADOIBDB37E4VNXTPV2XYY4B3PRPRBBWPO5LG7NMHSPDEHH2S3PITVZS",
+        "type": "credit_alphanum4",
+        "amount": "45797892.5433494"
+      },
+      "liquidityPoolId": "ffad3304e5e765b073b00a4cdd2a6a7851f514f09c994749b725e7d1de01b8e7",
+      "totalShares": "1634976.7642591",
+      "totalTrustlines": "1",
+      "reserveA": "58511.1883922",
+      "reserveB": "45797892.5433494",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "CDL/yXLM",
+      "poolId": "ffab7dbc7d1f513cdf4d512fe30240114c490822d1e23d43272cfc7732469a1e",
+      "tokenA": {
+        "symbol": "CDL",
+        "code": "CDL",
+        "issuer": "GDDW6J44TR3J4B4AXPS26VRC6V2SIKZY6RUEHUYDIKCXBPV25KRWVV4C",
+        "type": "credit_alphanum4",
+        "amount": "1179916.1247923"
+      },
+      "tokenB": {
+        "symbol": "yXLM",
+        "code": "yXLM",
+        "issuer": "GARDNV3Q7YGT4AKSDF25LT32YSCCW4EV22Y2TV3I2PU2MMXJTEDL5T55",
+        "type": "credit_alphanum4",
+        "amount": "5.3985050"
+      },
+      "liquidityPoolId": "ffab7dbc7d1f513cdf4d512fe30240114c490822d1e23d43272cfc7732469a1e",
+      "totalShares": "2422.1003023",
+      "totalTrustlines": "3",
+      "reserveA": "1179916.1247923",
+      "reserveB": "5.3985050",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "XLM/ATA",
+      "poolId": "ffa9e00af8e576cf37caf4ca390fbe8b2984db97b76cd025b8e3fdb26fa8c7eb",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "2.0790000"
+      },
+      "tokenB": {
+        "symbol": "ATA",
+        "code": "ATA",
+        "issuer": "GBFHVX4LC4JXLUH34J3D7E6YORDX64LPIXN2DXL42A6TUZVDUKKX4TLZ",
+        "type": "credit_alphanum4",
+        "amount": "519313304.7210301"
+      },
+      "liquidityPoolId": "ffa9e00af8e576cf37caf4ca390fbe8b2984db97b76cd025b8e3fdb26fa8c7eb",
+      "totalShares": "32834.5854245",
+      "totalTrustlines": "1",
+      "reserveA": "2.0790000",
+      "reserveB": "519313304.7210301",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "ICD/TWF",
+      "poolId": "ffa9c1a4908f7743bccc10bee90fc6e2b81323210cb86a0cdf7bfa3711830ec7",
+      "tokenA": {
+        "symbol": "ICD",
+        "code": "ICD",
+        "issuer": "GBE2FDV3UC464LRSN3N7DVPAHM22OHGZ2HPMHQ3UMSL2KIAZP2NWB5X3",
+        "type": "credit_alphanum4",
+        "amount": "358774243.2363221"
+      },
+      "tokenB": {
+        "symbol": "TWF",
+        "code": "TWF",
+        "issuer": "GBE2FDV3UC464LRSN3N7DVPAHM22OHGZ2HPMHQ3UMSL2KIAZP2NWB5X3",
+        "type": "credit_alphanum4",
+        "amount": "3221223823.5000000"
+      },
+      "liquidityPoolId": "ffa9c1a4908f7743bccc10bee90fc6e2b81323210cb86a0cdf7bfa3711830ec7",
+      "totalShares": "1073955657.7468460",
+      "totalTrustlines": "1",
+      "reserveA": "358774243.2363221",
+      "reserveB": "3221223823.5000000",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "XRPBRIDGE24/XRPGOLD",
+      "poolId": "ffa7711879fb99f9eb496d3c316fc416a5d25a3e450672a5f0df31b837bd2819",
+      "tokenA": {
+        "symbol": "XRPBRIDGE24",
+        "code": "XRPBRIDGE24",
+        "issuer": "GAUCPLSPBJKOSN7WZK6SDD2BYPQMC3YSWMLX4XXY7S4JPQFLJXEINDUS",
+        "type": "credit_alphanum4",
+        "amount": "2419326.4301018"
+      },
+      "tokenB": {
+        "symbol": "XRPGOLD",
+        "code": "XRPGOLD",
+        "issuer": "GAUCPLSPBJKOSN7WZK6SDD2BYPQMC3YSWMLX4XXY7S4JPQFLJXEINDUS",
+        "type": "credit_alphanum4",
+        "amount": "4984618.3155329"
+      },
+      "liquidityPoolId": "ffa7711879fb99f9eb496d3c316fc416a5d25a3e450672a5f0df31b837bd2819",
+      "totalShares": "3162277.6601683",
+      "totalTrustlines": "1",
+      "reserveA": "2419326.4301018",
+      "reserveB": "4984618.3155329",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "XLM/DBS",
+      "poolId": "ffa695af124578353d3db45a71e86b8d107a2bef936ef00b2d928e17ab927a48",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "0.0769566"
+      },
+      "tokenB": {
+        "symbol": "DBS",
+        "code": "DBS",
+        "issuer": "GAATECTOETXQO27H7FORFWGHJAVT7RTNY7OPDATPTVENJM3XSTOKSXO7",
+        "type": "credit_alphanum4",
+        "amount": "700322833.4503278"
+      },
+      "liquidityPoolId": "ffa695af124578353d3db45a71e86b8d107a2bef936ef00b2d928e17ab927a48",
+      "totalShares": "1253.9776712",
+      "totalTrustlines": "1",
+      "reserveA": "0.0769566",
+      "reserveB": "700322833.4503278",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "DOPE/SHX",
+      "poolId": "ffa4f3767f799c4b112260f10069c684d2ca1b28dc083f0484a1e205d6913f29",
+      "tokenA": {
+        "symbol": "DOPE",
+        "code": "DOPE",
+        "issuer": "GA5J25LV64MUIWVGWMMOTNPEKEZTXDDCCZNNPHTSGAIHXHTPMR3NLD4B",
+        "type": "credit_alphanum4",
+        "amount": "11262.2935334"
+      },
+      "tokenB": {
+        "symbol": "SHX",
+        "code": "SHX",
+        "issuer": "GDSTRSHXHGJ7ZIVRBXEYE5Q74XUVCUSEKEBR7UCHEUUEK72N7I7KJ6JH",
+        "type": "credit_alphanum4",
+        "amount": "740.7217075"
+      },
+      "liquidityPoolId": "ffa4f3767f799c4b112260f10069c684d2ca1b28dc083f0484a1e205d6913f29",
+      "totalShares": "2798.8474763",
+      "totalTrustlines": "1",
+      "reserveA": "11262.2935334",
+      "reserveB": "740.7217075",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "LOBSTR/WIRIDIUM",
+      "poolId": "ffa44d296e65a3ac7af15ed91ba6ff6278a4db468b758929562df9c251cae511",
+      "tokenA": {
+        "symbol": "LOBSTR",
+        "code": "LOBSTR",
+        "issuer": "GDAXGUR2JIFAUYVBQ4AHZMK7CN7WLAV6SOWYZJK7JB3X76J5U2G47B7M",
+        "type": "credit_alphanum4",
+        "amount": "43558.4277432"
+      },
+      "tokenB": {
+        "symbol": "WIRIDIUM",
+        "code": "WIRIDIUM",
+        "issuer": "GAYEYN65Z424XOHKJ3NFXDX5E5BH6IPRWHM7K4J3GLQUKB2XRRZUIJ6E",
+        "type": "credit_alphanum4",
+        "amount": "10126.1521509"
+      },
+      "liquidityPoolId": "ffa44d296e65a3ac7af15ed91ba6ff6278a4db468b758929562df9c251cae511",
+      "totalShares": "20687.6482325",
+      "totalTrustlines": "1",
+      "reserveA": "43558.4277432",
+      "reserveB": "10126.1521509",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "GOLD/RIO",
+      "poolId": "ffa3e8c1f8583923ae5ea59e6edd3fd2cdc90c142af395c4ea4505ce6468bd20",
+      "tokenA": {
+        "symbol": "GOLD",
+        "code": "GOLD",
+        "issuer": "GBC5ZGK6MQU3XG5Y72SXPA7P5R5NHYT2475SNEJB2U3EQ6J56QLVGOLD",
+        "type": "credit_alphanum4",
+        "amount": "0.0030084"
+      },
+      "tokenB": {
+        "symbol": "RIO",
+        "code": "RIO",
+        "issuer": "GBNLJIYH34UWO5YZFA3A3HD3N76R6DOI33N4JONUOHEEYZYCAYTEJ5AK",
+        "type": "credit_alphanum4",
+        "amount": "2.3160689"
+      },
+      "liquidityPoolId": "ffa3e8c1f8583923ae5ea59e6edd3fd2cdc90c142af395c4ea4505ce6468bd20",
+      "totalShares": "0.0821583",
+      "totalTrustlines": "1",
+      "reserveA": "0.0030084",
+      "reserveB": "2.3160689",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "AFR/XLM",
+      "poolId": "ffa334ec7a1baf9e62954414c6403ab2104dce240ff06e8153b0389e4201bbb8",
+      "tokenA": {
+        "symbol": "AFR",
+        "code": "AFR",
+        "issuer": "GBX6YI45VU7WNAAKA3RBFDR3I3UKNFHTJPQ5F6KOOKSGYIAM4TRQN54W",
+        "type": "credit_alphanum4",
+        "amount": "109.9475104"
+      },
+      "tokenB": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "issuer": "GDIIP2ZU76BJAWZ54JOE5TQ475XITE2AGDB5DHWXDD5CHEGWJ7HHPX3H",
+        "type": "credit_alphanum4",
+        "amount": "322686976.3838983"
+      },
+      "liquidityPoolId": "ffa334ec7a1baf9e62954414c6403ab2104dce240ff06e8153b0389e4201bbb8",
+      "totalShares": "179217.2594955",
+      "totalTrustlines": "1",
+      "reserveA": "109.9475104",
+      "reserveB": "322686976.3838983",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "XLM/VERIZON",
+      "poolId": "ffa18b6adf3f633f95faa83d1d4222886f7476d901e3286871a571d9253818d2",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "6.3233137"
+      },
+      "tokenB": {
+        "symbol": "VERIZON",
+        "code": "VERIZON",
+        "issuer": "GCXBBSXJETM32BY2CL34ESF4P22EF4UPEUKC45I4V2YILERI33CXW4TP",
+        "type": "credit_alphanum4",
+        "amount": "2684.9465159"
+      },
+      "liquidityPoolId": "ffa18b6adf3f633f95faa83d1d4222886f7476d901e3286871a571d9253818d2",
+      "totalShares": "128.4523257",
+      "totalTrustlines": "1",
+      "reserveA": "6.3233137",
+      "reserveB": "2684.9465159",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "AINR/LMT",
+      "poolId": "ffa0a5030b28dd5f8aa95dcf9e5e6c1a9927e877bc324be528c24b2e8abe2bfd",
+      "tokenA": {
+        "symbol": "AINR",
+        "code": "AINR",
+        "issuer": "GCJFH6HI5UPQVTUUOAS7JPOEPCQZCNGM63GWMBL6ULGUL4XUXRIXXIEQ",
+        "type": "credit_alphanum4",
+        "amount": "85828.1503960"
+      },
+      "tokenB": {
+        "symbol": "LMT",
+        "code": "LMT",
+        "issuer": "GBCDFFU2MBT25YX2TBFS4V2XHIJVTGHGK3H6KGA2NIK7X5NK3UFRC6BQ",
+        "type": "credit_alphanum4",
+        "amount": "510524.3688430"
+      },
+      "liquidityPoolId": "ffa0a5030b28dd5f8aa95dcf9e5e6c1a9927e877bc324be528c24b2e8abe2bfd",
+      "totalShares": "202739.2057696",
+      "totalTrustlines": "2",
+      "reserveA": "85828.1503960",
+      "reserveB": "510524.3688430",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "XLM/eOPERATOR",
+      "poolId": "ff9ff8704eeb009a01d02fba461bbbfd37bd3a9f8a75f2e49bf464082df56a15",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "0.0172027"
+      },
+      "tokenB": {
+        "symbol": "eOPERATOR",
+        "code": "eOPERATOR",
+        "issuer": "GANJTAAQ5W6YPUSJDHRZFA6SJ4DWX253HI4LXELNB7ZPSPXEO5ORAOJO",
+        "type": "credit_alphanum4",
+        "amount": "5824491.5497634"
+      },
+      "liquidityPoolId": "ff9ff8704eeb009a01d02fba461bbbfd37bd3a9f8a75f2e49bf464082df56a15",
+      "totalShares": "316.2277660",
+      "totalTrustlines": "1",
+      "reserveA": "0.0172027",
+      "reserveB": "5824491.5497634",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "XLM/AMAD",
+      "poolId": "ff9e72d2f059445d7d84fb2a030e3518c63e85751af53116accc4aa423046851",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "64.2002540"
+      },
+      "tokenB": {
+        "symbol": "AMAD",
+        "code": "AMAD",
+        "issuer": "GDNUVPUOMWOF2ML5FA5E4HQDX7EHV3VCJTLLTO563PUMZKMHJUJIJSYI",
+        "type": "credit_alphanum4",
+        "amount": "239.7026045"
+      },
+      "liquidityPoolId": "ff9e72d2f059445d7d84fb2a030e3518c63e85751af53116accc4aa423046851",
+      "totalShares": "121.1522563",
+      "totalTrustlines": "1",
+      "reserveA": "64.2002540",
+      "reserveB": "239.7026045",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "LMNR/SCOP",
+      "poolId": "ff9dc2f62b446531901d6300c6ae4c4573737c78ae9ea1c981d4a3ef51ec9e4a",
+      "tokenA": {
+        "symbol": "LMNR",
+        "code": "LMNR",
+        "issuer": "GALUVE2YREE6NU4T2746XL7XORCEY5NVDJ7WADGWANUZWQJZ3PTP5PHB",
+        "type": "credit_alphanum4",
+        "amount": "1041808.9693364"
+      },
+      "tokenB": {
+        "symbol": "SCOP",
+        "code": "SCOP",
+        "issuer": "GC6OYQJIZF3HFXCYPFCBXYXNGIBQ4TNSFUBUXQJOZWIP6F3YZK4QH3VQ",
+        "type": "credit_alphanum4",
+        "amount": "6933.3252861"
+      },
+      "liquidityPoolId": "ff9dc2f62b446531901d6300c6ae4c4573737c78ae9ea1c981d4a3ef51ec9e4a",
+      "totalShares": "78888.9159876",
+      "totalTrustlines": "3",
+      "reserveA": "1041808.9693364",
+      "reserveB": "6933.3252861",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "XLM/SLFS",
+      "poolId": "ff9d1997ea1312ebf285689d316041871eeacf358a109dbf9ecc905afe45fb72",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "0.0055833"
+      },
+      "tokenB": {
+        "symbol": "SLFS",
+        "code": "SLFS",
+        "issuer": "GDOH4XKIWWFF6Z5MM76GMYZGCC7FU3O45FTSV2XISC45LRJS4HP6D3D2",
+        "type": "credit_alphanum4",
+        "amount": "149139508.6124052"
+      },
+      "liquidityPoolId": "ff9d1997ea1312ebf285689d316041871eeacf358a109dbf9ecc905afe45fb72",
+      "totalShares": "457.0528581",
+      "totalTrustlines": "2",
+      "reserveA": "0.0055833",
+      "reserveB": "149139508.6124052",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "SVND/USDC",
+      "poolId": "ff9bed402b93ecc2e93f3ae2e191952d4aa49b5400fefaa2857a70d241655013",
+      "tokenA": {
+        "symbol": "SVND",
+        "code": "SVND",
+        "issuer": "GDQYXPQ2KEPH6TTVSZL6O3ZQQ4JB3BPTUE4NSVLZNLIAUJTGR5OWVJCR",
+        "type": "credit_alphanum4",
+        "amount": "3307.3037822"
+      },
+      "tokenB": {
+        "symbol": "USDC",
+        "code": "USDC",
+        "issuer": "GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN",
+        "type": "credit_alphanum4",
+        "amount": "8.8421713"
+      },
+      "liquidityPoolId": "ff9bed402b93ecc2e93f3ae2e191952d4aa49b5400fefaa2857a70d241655013",
+      "totalShares": "170.4118135",
+      "totalTrustlines": "1",
+      "reserveA": "3307.3037822",
+      "reserveB": "8.8421713",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "XLM/CODIUS",
+      "poolId": "ff99002e0a89472850246491ce073dcc103f31056574f932c9dd56a7bd4990af",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "3.8649987"
+      },
+      "tokenB": {
+        "symbol": "CODIUS",
+        "code": "CODIUS",
+        "issuer": "GBSREIUEE5COM3J5BQCXXM4UVR67QJK73UT7SZOQXO74P7CHXZWX5BWA",
+        "type": "credit_alphanum4",
+        "amount": "6044.0098696"
+      },
+      "liquidityPoolId": "ff99002e0a89472850246491ce073dcc103f31056574f932c9dd56a7bd4990af",
+      "totalShares": "143.7047030",
+      "totalTrustlines": "1",
+      "reserveA": "3.8649987",
+      "reserveB": "6044.0098696",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "VELO/DOGET",
+      "poolId": "ff9560e7d4b951324f8dc630d34d985ec1d2f967a05f67719e6d0803d9e4c085",
+      "tokenA": {
+        "symbol": "VELO",
+        "code": "VELO",
+        "issuer": "GDM4RQUQQUVSKQA7S6EM7XBZP3FCGH4Q7CL6TABQ7B2BEJ5ERARM2M5M",
+        "type": "credit_alphanum4",
+        "amount": "0.0063667"
+      },
+      "tokenB": {
+        "symbol": "DOGET",
+        "code": "DOGET",
+        "issuer": "GDOEVDDBU6OBWKL7VHDAOKD77UP4DKHQYKOKJJT5PR3WRDBTX35HUEUX",
+        "type": "credit_alphanum4",
+        "amount": "1.5755777"
+      },
+      "liquidityPoolId": "ff9560e7d4b951324f8dc630d34d985ec1d2f967a05f67719e6d0803d9e4c085",
+      "totalShares": "0.0964456",
+      "totalTrustlines": "1",
+      "reserveA": "0.0063667",
+      "reserveB": "1.5755777",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "XLM/QQQ",
+      "poolId": "ff9414b029c70668765f0323fe83c49f4d6a57971f31031baf836ce26d33eb45",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "1.7385823"
+      },
+      "tokenB": {
+        "symbol": "QQQ",
+        "code": "QQQ",
+        "issuer": "GAFTOYHUZNTXLPR455NSBLADAEEU7Q4XLVGGEWMQ3RUXK6U6RO4Y2YSJ",
+        "type": "credit_alphanum4",
+        "amount": "1501289786.8281521"
+      },
+      "liquidityPoolId": "ff9414b029c70668765f0323fe83c49f4d6a57971f31031baf836ce26d33eb45",
+      "totalShares": "39654.2557516",
+      "totalTrustlines": "1",
+      "reserveA": "1.7385823",
+      "reserveB": "1501289786.8281521",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "MGM/NEXI",
+      "poolId": "ff93e3d9762d3daa20ba58c81b5c71817eaafa0659cb6edeb24a99303d5edacc",
+      "tokenA": {
+        "symbol": "MGM",
+        "code": "MGM",
+        "issuer": "GB26IFM76GQ5AXQZVSXO2VXC3IP6CSHJASJTWUGQPTQ2KY4QSF5P7V7M",
+        "type": "credit_alphanum4",
+        "amount": "10000000.0000000"
+      },
+      "tokenB": {
+        "symbol": "NEXI",
+        "code": "NEXI",
+        "issuer": "GB26IFM76GQ5AXQZVSXO2VXC3IP6CSHJASJTWUGQPTQ2KY4QSF5P7V7M",
+        "type": "credit_alphanum4",
+        "amount": "10000000.0000000"
+      },
+      "liquidityPoolId": "ff93e3d9762d3daa20ba58c81b5c71817eaafa0659cb6edeb24a99303d5edacc",
+      "totalShares": "10000000.0000000",
+      "totalTrustlines": "1",
+      "reserveA": "10000000.0000000",
+      "reserveB": "10000000.0000000",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "GOLDBANK010/RUGOLDBRIDGE",
+      "poolId": "ff928ed2ee32872a33993dc3aa97ddf634fcd8972b1190154f23d37f8bebf499",
+      "tokenA": {
+        "symbol": "GOLDBANK010",
+        "code": "GOLDBANK010",
+        "issuer": "GDEUQ2MX3YXMITFOTC3CO3GW5V3XE3IVG7JKLZZAOZ7WFYIN256INDUS",
+        "type": "credit_alphanum4",
+        "amount": "5328410.3699051"
+      },
+      "tokenB": {
+        "symbol": "RUGOLDBRIDGE",
+        "code": "RUGOLDBRIDGE",
+        "issuer": "GAUCPLSPBJKOSN7WZK6SDD2BYPQMC3YSWMLX4XXY7S4JPQFLJXEINDUS",
+        "type": "credit_alphanum4",
+        "amount": "246044.4248072"
+      },
+      "liquidityPoolId": "ff928ed2ee32872a33993dc3aa97ddf634fcd8972b1190154f23d37f8bebf499",
+      "totalShares": "1000000.0000000",
+      "totalTrustlines": "1",
+      "reserveA": "5328410.3699051",
+      "reserveB": "246044.4248072",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "KING4/LiquidLobstr",
+      "poolId": "ff9260f96f90f2ca110d7522c696513ced1c399edbc0e507be84030c115bfeff",
+      "tokenA": {
+        "symbol": "KING4",
+        "code": "KING4",
+        "issuer": "GCRGGFNH6WTXLUQXRHBXZQI6SQ5JXSQWPIWBAEPB4CL626GHIBIORYCF",
+        "type": "credit_alphanum4",
+        "amount": "160446.3880723"
+      },
+      "tokenB": {
+        "symbol": "LiquidLobstr",
+        "code": "LiquidLobstr",
+        "issuer": "GBMC5NINT2TNAPLFHQESY27JVKS3BTH35DDGQGHI7AAGCE7XK2O7SCKM",
+        "type": "credit_alphanum4",
+        "amount": "134388.1258237"
+      },
+      "liquidityPoolId": "ff9260f96f90f2ca110d7522c696513ced1c399edbc0e507be84030c115bfeff",
+      "totalShares": "146134.1209988",
+      "totalTrustlines": "1",
+      "reserveA": "160446.3880723",
+      "reserveB": "134388.1258237",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "LVMREIT/MORTG",
+      "poolId": "ff90be82197c33b404abe0f1ca888d9ef00ba4edb937141d5d4abc2c0620b49a",
+      "tokenA": {
+        "symbol": "LVMREIT",
+        "code": "LVMREIT",
+        "issuer": "GBBT7SR6TODAKWJDG3NJEARPRQEDKO6AAR35Q36YQZP6367FQASLLW3F",
+        "type": "credit_alphanum4",
+        "amount": "410023.1118722"
+      },
+      "tokenB": {
+        "symbol": "MORTG",
+        "code": "MORTG",
+        "issuer": "GCFLUK4UK77337BRT6UGWP5UHYB73PSQ4HRACL6HJOQWH4GAKL4UX3RB",
+        "type": "credit_alphanum4",
+        "amount": "22566.2940315"
+      },
+      "liquidityPoolId": "ff90be82197c33b404abe0f1ca888d9ef00ba4edb937141d5d4abc2c0620b49a",
+      "totalShares": "83096.3899243",
+      "totalTrustlines": "1",
+      "reserveA": "410023.1118722",
+      "reserveB": "22566.2940315",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "XRPBANK108/XRPGOLD",
+      "poolId": "ff8b33c28c286c601160c6706f0052c8efeca5a1306324eb1abbadeeed8b5529",
+      "tokenA": {
+        "symbol": "XRPBANK108",
+        "code": "XRPBANK108",
+        "issuer": "GAUCPLSPBJKOSN7WZK6SDD2BYPQMC3YSWMLX4XXY7S4JPQFLJXEINDUS",
+        "type": "credit_alphanum4",
+        "amount": "684765.2952858"
+      },
+      "tokenB": {
+        "symbol": "XRPGOLD",
+        "code": "XRPGOLD",
+        "issuer": "GAUCPLSPBJKOSN7WZK6SDD2BYPQMC3YSWMLX4XXY7S4JPQFLJXEINDUS",
+        "type": "credit_alphanum4",
+        "amount": "176816.2645288"
+      },
+      "liquidityPoolId": "ff8b33c28c286c601160c6706f0052c8efeca5a1306324eb1abbadeeed8b5529",
+      "totalShares": "316227.7660168",
+      "totalTrustlines": "1",
+      "reserveA": "684765.2952858",
+      "reserveB": "176816.2645288",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "XLM/VBRFP",
+      "poolId": "ff8a9f5e408772a08987c1926dba6e9caf68eb48f2e5a093c16b464cc549466e",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "2.7851900"
+      },
+      "tokenB": {
+        "symbol": "VBRFP",
+        "code": "VBRFP",
+        "issuer": "GCZPYI4DNMULMZAQXR2L3LNR6SAFVCJKLQCMUD232BVULOFQBIENPM6P",
+        "type": "credit_alphanum4",
+        "amount": "1691809.7867300"
+      },
+      "liquidityPoolId": "ff8a9f5e408772a08987c1926dba6e9caf68eb48f2e5a093c16b464cc549466e",
+      "totalShares": "1000.0000000",
+      "totalTrustlines": "1",
+      "reserveA": "2.7851900",
+      "reserveB": "1691809.7867300",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "GANFENG/LAOJIAO",
+      "poolId": "ff8a1d42781df4ab7ac9405eb4ce3e74f2b1b664d49988f842d13fee8505174f",
+      "tokenA": {
+        "symbol": "GANFENG",
+        "code": "GANFENG",
+        "issuer": "GDPDCU4UL7RMDMJSV2QNUWEVWVVZUNUQ5427YE33BYHQCGWVJR2JAFEB",
+        "type": "credit_alphanum4",
+        "amount": "2500.0000000"
+      },
+      "tokenB": {
+        "symbol": "LAOJIAO",
+        "code": "LAOJIAO",
+        "issuer": "GDPDCU4UL7RMDMJSV2QNUWEVWVVZUNUQ5427YE33BYHQCGWVJR2JAFEB",
+        "type": "credit_alphanum4",
+        "amount": "2500.0000000"
+      },
+      "liquidityPoolId": "ff8a1d42781df4ab7ac9405eb4ce3e74f2b1b664d49988f842d13fee8505174f",
+      "totalShares": "2500.0000000",
+      "totalTrustlines": "1",
+      "reserveA": "2500.0000000",
+      "reserveB": "2500.0000000",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "SAFEPEN/WGUARDIAN",
+      "poolId": "ff89d6976c8a2cccb01da777acb673d7431d9b2024dabca1bda717f9f2416bce",
+      "tokenA": {
+        "symbol": "SAFEPEN",
+        "code": "SAFEPEN",
+        "issuer": "GDJOOO4QRCCSNFIGON2IW3P7PCBYWTFF7JFMSHW7SGSHEOSQNFJPWJBU",
+        "type": "credit_alphanum4",
+        "amount": "180127.3890658"
+      },
+      "tokenB": {
+        "symbol": "WGUARDIAN",
+        "code": "WGUARDIAN",
+        "issuer": "GBYBVWOOVC4EJVRIF4HMWG5B7POLCS7JRPY5KYR3BCLEK24IJQOGUARD",
+        "type": "credit_alphanum4",
+        "amount": "4637.0636042"
+      },
+      "liquidityPoolId": "ff89d6976c8a2cccb01da777acb673d7431d9b2024dabca1bda717f9f2416bce",
+      "totalShares": "21605.6673427",
+      "totalTrustlines": "1",
+      "reserveA": "180127.3890658",
+      "reserveB": "4637.0636042",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "USD1/yXLM",
+      "poolId": "ff885faf4d18917e51e80849e50d49f38e3a9d07a67fdc1ed4814ecbb326a026",
+      "tokenA": {
+        "symbol": "USD1",
+        "code": "USD1",
+        "issuer": "GB6NB645EBTOGMZN33E3HXZQYXTAWQI3PIJC4OQX6UAN62E56I6WPUSD",
+        "type": "credit_alphanum4",
+        "amount": "4016.9200894"
+      },
+      "tokenB": {
+        "symbol": "yXLM",
+        "code": "yXLM",
+        "issuer": "GARDNV3Q7YGT4AKSDF25LT32YSCCW4EV22Y2TV3I2PU2MMXJTEDL5T55",
+        "type": "credit_alphanum4",
+        "amount": "3.2304413"
+      },
+      "liquidityPoolId": "ff885faf4d18917e51e80849e50d49f38e3a9d07a67fdc1ed4814ecbb326a026",
+      "totalShares": "112.9158979",
+      "totalTrustlines": "1",
+      "reserveA": "4016.9200894",
+      "reserveB": "3.2304413",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "XDC/Polygon",
+      "poolId": "ff8821afa4de59f2474f0174f3afb376e52f20c5178cd5c4562d9b51541b01dc",
+      "tokenA": {
+        "symbol": "XDC",
+        "code": "XDC",
+        "issuer": "GARPL3TRNQ4LIWEP4OFRLS7E24W5WGGBAHYYZAVPLEWSMI3VGORBT63A",
+        "type": "credit_alphanum4",
+        "amount": "24.2078774"
+      },
+      "tokenB": {
+        "symbol": "Polygon",
+        "code": "Polygon",
+        "issuer": "GAJ2D6JUK77PPXH6DEDT6M3V3QZTX363RSHHZ4IYDYSCBFPUHFRJR77U",
+        "type": "credit_alphanum4",
+        "amount": "6306.6923076"
+      },
+      "liquidityPoolId": "ff8821afa4de59f2474f0174f3afb376e52f20c5178cd5c4562d9b51541b01dc",
+      "totalShares": "390.2673290",
+      "totalTrustlines": "1",
+      "reserveA": "24.2078774",
+      "reserveB": "6306.6923076",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "XLM/QHBAR",
+      "poolId": "ff877aeb40d872c416b8b709e8f17b354775486211ae9c3dea1115ac3952d80f",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "0.0661041"
+      },
+      "tokenB": {
+        "symbol": "QHBAR",
+        "code": "QHBAR",
+        "issuer": "GBUVAXJHY6BLZLAKBRVONI2EGVU26BAROHH5BKKQJDCCQJUQJJQHCQFS",
+        "type": "credit_alphanum4",
+        "amount": "1583.5297070"
+      },
+      "liquidityPoolId": "ff877aeb40d872c416b8b709e8f17b354775486211ae9c3dea1115ac3952d80f",
+      "totalShares": "9.9498743",
+      "totalTrustlines": "1",
+      "reserveA": "0.0661041",
+      "reserveB": "1583.5297070",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "BBVA/MOBI",
+      "poolId": "ff869c2b633bdc601cf6e20256ba0a8d752fc6fd645b3978fe7b04c8480d66d6",
+      "tokenA": {
+        "symbol": "BBVA",
+        "code": "BBVA",
+        "issuer": "GB6KHHHS52HXXFRG5V5QKF2D2DMYHW6GICHPH3FJGJS5MYIPVXDL74TY",
+        "type": "credit_alphanum4",
+        "amount": "190.1265061"
+      },
+      "tokenB": {
+        "symbol": "MOBI",
+        "code": "MOBI",
+        "issuer": "GA6HCMBLTZS5VYYBCATRBRZ3BZJMAFUDKYYF6AH6MVCMGWMRDNSWJPIH",
+        "type": "credit_alphanum4",
+        "amount": "182.9264283"
+      },
+      "liquidityPoolId": "ff869c2b633bdc601cf6e20256ba0a8d752fc6fd645b3978fe7b04c8480d66d6",
+      "totalShares": "138.3506941",
+      "totalTrustlines": "1",
+      "reserveA": "190.1265061",
+      "reserveB": "182.9264283",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "LMNR/LIBERATOR",
+      "poolId": "ff865c565d8e4766fcc9f7a67b02a3db8cee8f917cca3d370860f789e685b6c0",
+      "tokenA": {
+        "symbol": "LMNR",
+        "code": "LMNR",
+        "issuer": "GALUVE2YREE6NU4T2746XL7XORCEY5NVDJ7WADGWANUZWQJZ3PTP5PHB",
+        "type": "credit_alphanum4",
+        "amount": "730119.9136952"
+      },
+      "tokenB": {
+        "symbol": "LIBERATOR",
+        "code": "LIBERATOR",
+        "issuer": "GCV4LXAU5PMYTIO7P5USPE2HUKLRCV2PPMULTOQSZESFLJLVL25W6D7F",
+        "type": "credit_alphanum4",
+        "amount": "39557.5458342"
+      },
+      "liquidityPoolId": "ff865c565d8e4766fcc9f7a67b02a3db8cee8f917cca3d370860f789e685b6c0",
+      "totalShares": "167908.7507216",
+      "totalTrustlines": "3",
+      "reserveA": "730119.9136952",
+      "reserveB": "39557.5458342",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "USAE/yUSDC",
+      "poolId": "ff84898573492bae503cba23ecd936e91d979f5d7b687b432f24c9c1ffdc3081",
+      "tokenA": {
+        "symbol": "USAE",
+        "code": "USAE",
+        "issuer": "GAA5DAWIQ2XSU2E2H6XN4TPFNTVSQQXHF3467QD22FH6WFUOZP72X3CQ",
+        "type": "credit_alphanum4",
+        "amount": "18.1932133"
+      },
+      "tokenB": {
+        "symbol": "yUSDC",
+        "code": "yUSDC",
+        "issuer": "GDGTVWSM4MGS4T7Z6W4RPWOCHE2I6RDFCIFZGS3DOA63LWQTRNZNTTFF",
+        "type": "credit_alphanum4",
+        "amount": "0.7512138"
+      },
+      "liquidityPoolId": "ff84898573492bae503cba23ecd936e91d979f5d7b687b432f24c9c1ffdc3081",
+      "totalShares": "3.5904831",
+      "totalTrustlines": "1",
+      "reserveA": "18.1932133",
+      "reserveB": "0.7512138",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "XLM/CAN",
+      "poolId": "ff840c0ed19ea856efeae7166c5e043a8a453c725e48fc87ddb570e09adec237",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "42.0455846"
+      },
+      "tokenB": {
+        "symbol": "CAN",
+        "code": "CAN",
+        "issuer": "GB6MLBX7I3COC2W6W4FAPRL764YLD3NEFRTIPXE2NWVYL2WSE7MAWZ2V",
+        "type": "credit_alphanum4",
+        "amount": "615024837.5084067"
+      },
+      "liquidityPoolId": "ff840c0ed19ea856efeae7166c5e043a8a453c725e48fc87ddb570e09adec237",
+      "totalShares": "158551.8451485",
+      "totalTrustlines": "1",
+      "reserveA": "42.0455846",
+      "reserveB": "615024837.5084067",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "NVIDIA/SWPHX",
+      "poolId": "ff83fb37d75c3f472054e2003fd82d0815bf794ac28d0ba80e1962b6a5071bcc",
+      "tokenA": {
+        "symbol": "NVIDIA",
+        "code": "NVIDIA",
+        "issuer": "GBANKIUDMQ5G3EMG6DTQO5P4X3V5UVGRBMKWRAEZX4YTLF3J7BALGHE4",
+        "type": "credit_alphanum4",
+        "amount": "115147.0745996"
+      },
+      "tokenB": {
+        "symbol": "SWPHX",
+        "code": "SWPHX",
+        "issuer": "GAB6TXZZ5MNRI72ZNLTYNP7UEIYM7JE2IKEZGOQIEZTQYTZL5TDLPTPZ",
+        "type": "credit_alphanum4",
+        "amount": "1742.9013206"
+      },
+      "liquidityPoolId": "ff83fb37d75c3f472054e2003fd82d0815bf794ac28d0ba80e1962b6a5071bcc",
+      "totalShares": "14073.3978653",
+      "totalTrustlines": "1",
+      "reserveA": "115147.0745996",
+      "reserveB": "1742.9013206",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "AQUA/XAUT",
+      "poolId": "ff80a739fe33b6fb10a06b33e07d9db06505dd071934a86a00f8bf4835863722",
+      "tokenA": {
+        "symbol": "AQUA",
+        "code": "AQUA",
+        "issuer": "GBNZILSTVQZ4R7IKQDGHYGY2QXL5QOFJYQMXPKWRRM5PAV7Y4M67AQUA",
+        "type": "credit_alphanum4",
+        "amount": "96.5559925"
+      },
+      "tokenB": {
+        "symbol": "XAUT",
+        "code": "XAUT",
+        "issuer": "GABKEFZMW246SZELTDPLAXXKFYN27LU4M4FVEJFP7HULI3JIFNZUAW26",
+        "type": "credit_alphanum4",
+        "amount": "2250.4462593"
+      },
+      "liquidityPoolId": "ff80a739fe33b6fb10a06b33e07d9db06505dd071934a86a00f8bf4835863722",
+      "totalShares": "460.9772228",
+      "totalTrustlines": "1",
+      "reserveA": "96.5559925",
+      "reserveB": "2250.4462593",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "USDC/Starlight",
+      "poolId": "ff7ef6ae5effed22a99ebe3ed55aeb2efe2039a5137606394a9c5247e3b3304f",
+      "tokenA": {
+        "symbol": "USDC",
+        "code": "USDC",
+        "issuer": "GA5ZSEJYB37JRC5AVCIA5MOP4RHTM335X2KGX3IHOJAPP5RE34K4KZVN",
+        "type": "credit_alphanum4",
+        "amount": "0.2442208"
+      },
+      "tokenB": {
+        "symbol": "Starlight",
+        "code": "Starlight",
+        "issuer": "GC6CPDPZFS2EPLOWLYZIAFMM25KSFZ2BIBSH672FBZN2IR3JJ6RJRARE",
+        "type": "credit_alphanum4",
+        "amount": "18809.8920904"
+      },
+      "liquidityPoolId": "ff7ef6ae5effed22a99ebe3ed55aeb2efe2039a5137606394a9c5247e3b3304f",
+      "totalShares": "63.2455532",
+      "totalTrustlines": "1",
+      "reserveA": "0.2442208",
+      "reserveB": "18809.8920904",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "AQUA/BCH",
+      "poolId": "ff7b9cf5b82ea07f1a12b4a1d8be6371120337f7b38470178daf41103274d704",
+      "tokenA": {
+        "symbol": "AQUA",
+        "code": "AQUA",
+        "issuer": "GBNZILSTVQZ4R7IKQDGHYGY2QXL5QOFJYQMXPKWRRM5PAV7Y4M67AQUA",
+        "type": "credit_alphanum4",
+        "amount": "2.2957088"
+      },
+      "tokenB": {
+        "symbol": "BCH",
+        "code": "BCH",
+        "issuer": "GA3IWABIG6E64TLQFQ74LAYHAHHA4GJSQLYNRDEADH6ZLLLYBLDNDBCH",
+        "type": "credit_alphanum4",
+        "amount": "33001546.5514928"
+      },
+      "liquidityPoolId": "ff7b9cf5b82ea07f1a12b4a1d8be6371120337f7b38470178daf41103274d704",
+      "totalShares": "8658.1964057",
+      "totalTrustlines": "1",
+      "reserveA": "2.2957088",
+      "reserveB": "33001546.5514928",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "CDE/SBritain",
+      "poolId": "ff7b70c260098e8df8962345e4ba3abe81283fdea37d65b5ce69c2d02315375a",
+      "tokenA": {
+        "symbol": "CDE",
+        "code": "CDE",
+        "issuer": "GAISQZX2KTMVEOHD3GLRBMQQH2ZY56BUMCLKYGVGT2XWO55FV57KRIGB",
+        "type": "credit_alphanum4",
+        "amount": "108925400.1643335"
+      },
+      "tokenB": {
+        "symbol": "SBritain",
+        "code": "SBritain",
+        "issuer": "GC7FHAI6DKOJSERN65DNLJX37XV2TTUGJI6WITJFGBONUDZIZYJAI7OT",
+        "type": "credit_alphanum4",
+        "amount": "68305.1186742"
+      },
+      "liquidityPoolId": "ff7b70c260098e8df8962345e4ba3abe81283fdea37d65b5ce69c2d02315375a",
+      "totalShares": "2236067.9774997",
+      "totalTrustlines": "1",
+      "reserveA": "108925400.1643335",
+      "reserveB": "68305.1186742",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "CLIX/SHX",
+      "poolId": "ff79a10bf1ee73f12348975d8c22d67ee59bdd276bb7fba923438ef3ccc54b1b",
+      "tokenA": {
+        "symbol": "CLIX",
+        "code": "CLIX",
+        "issuer": "GBCJSKXTZX5CYKJGBGQPYEATLSGR4EPRUOL7EKIDCDOZ4UC67BBQRCSO",
+        "type": "credit_alphanum4",
+        "amount": "366274.4977282"
+      },
+      "tokenB": {
+        "symbol": "SHX",
+        "code": "SHX",
+        "issuer": "GDSTRSHXHGJ7ZIVRBXEYE5Q74XUVCUSEKEBR7UCHEUUEK72N7I7KJ6JH",
+        "type": "credit_alphanum4",
+        "amount": "3190.0405197"
+      },
+      "liquidityPoolId": "ff79a10bf1ee73f12348975d8c22d67ee59bdd276bb7fba923438ef3ccc54b1b",
+      "totalShares": "27110.9517821",
+      "totalTrustlines": "2",
+      "reserveA": "366274.4977282",
+      "reserveB": "3190.0405197",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "SGB/SOL",
+      "poolId": "ff77bd42eab4208fe6466397ad52c6f3a8329e130c2d9f91338c5b798d3dc6be",
+      "tokenA": {
+        "symbol": "SGB",
+        "code": "SGB",
+        "issuer": "GB3J5JCAR4LVQGHWBB2JPMGYZYLYOXSV7UHBMXWYIF3EHQANPAQTFDYA",
+        "type": "credit_alphanum4",
+        "amount": "50000000.0000000"
+      },
+      "tokenB": {
+        "symbol": "SOL",
+        "code": "SOL",
+        "issuer": "GB3J5JCAR4LVQGHWBB2JPMGYZYLYOXSV7UHBMXWYIF3EHQANPAQTFDYA",
+        "type": "credit_alphanum4",
+        "amount": "50000000.0000000"
+      },
+      "liquidityPoolId": "ff77bd42eab4208fe6466397ad52c6f3a8329e130c2d9f91338c5b798d3dc6be",
+      "totalShares": "50000000.0000000",
+      "totalTrustlines": "1",
+      "reserveA": "50000000.0000000",
+      "reserveB": "50000000.0000000",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "XLM/AQUAmb",
+      "poolId": "ff75c02a0fab748450065cf1fa34e49ce0361e9de47c89bc0879aacd91aa145e",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "44.1208394"
+      },
+      "tokenB": {
+        "symbol": "AQUAmb",
+        "code": "AQUAmb",
+        "issuer": "GDXF6SYWIQOKOZ7BACXHBFBLQZEIH25KOTTLWQK35GO3JKRNIFHHGBPC",
+        "type": "credit_alphanum4",
+        "amount": "18991.5024175"
+      },
+      "liquidityPoolId": "ff75c02a0fab748450065cf1fa34e49ce0361e9de47c89bc0879aacd91aa145e",
+      "totalShares": "915.2152484",
+      "totalTrustlines": "1",
+      "reserveA": "44.1208394",
+      "reserveB": "18991.5024175",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "JOHN/LIBRE",
+      "poolId": "ff75998216e57082e7b188ced9acc6589f15bc2805162b76dbb76fa971f0df89",
+      "tokenA": {
+        "symbol": "JOHN",
+        "code": "JOHN",
+        "issuer": "GB5S34RQZKNFYEYW6V6N3DAJ3TIDOXPSDV75YY5DTT2J2NJWFDLALGEW",
+        "type": "credit_alphanum4",
+        "amount": "1377193.6675217"
+      },
+      "tokenB": {
+        "symbol": "LIBRE",
+        "code": "LIBRE",
+        "issuer": "GAYCCWKECNGDRHYU3UTREBD2XLC3CUQN6FV22TKM4WCQER3IWR7TF5CY",
+        "type": "credit_alphanum4",
+        "amount": "22580.7814056"
+      },
+      "liquidityPoolId": "ff75998216e57082e7b188ced9acc6589f15bc2805162b76dbb76fa971f0df89",
+      "totalShares": "169083.4069634",
+      "totalTrustlines": "2",
+      "reserveA": "1377193.6675217",
+      "reserveB": "22580.7814056",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "AQUA/TRADE",
+      "poolId": "ff737da4a012a4e1b38914b7d6e12e7a4e35e064cdca27537559b0fbf13c9cfa",
+      "tokenA": {
+        "symbol": "AQUA",
+        "code": "AQUA",
+        "issuer": "GBNZILSTVQZ4R7IKQDGHYGY2QXL5QOFJYQMXPKWRRM5PAV7Y4M67AQUA",
+        "type": "credit_alphanum4",
+        "amount": "0.1953749"
+      },
+      "tokenB": {
+        "symbol": "TRADE",
+        "code": "TRADE",
+        "issuer": "GCYGSVQ4E5XQRCHBBYYJRKUYD4F5KTZHPRRPAKIZMNKOKFKDIQSYQYPL",
+        "type": "credit_alphanum4",
+        "amount": "0.2882013"
+      },
+      "liquidityPoolId": "ff737da4a012a4e1b38914b7d6e12e7a4e35e064cdca27537559b0fbf13c9cfa",
+      "totalShares": "0.1225003",
+      "totalTrustlines": "1",
+      "reserveA": "0.1953749",
+      "reserveB": "0.2882013",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    },
+    {
+      "pairName": "XLM/XRPBRIDGE38",
+      "poolId": "ff6ff283b1130bf097e1c5afc353b7f950cf843f78dd763be1b81faa4026cba7",
+      "tokenA": {
+        "symbol": "XLM",
+        "code": "XLM",
+        "type": "native",
+        "amount": "0.0590973"
+      },
+      "tokenB": {
+        "symbol": "XRPBRIDGE38",
+        "code": "XRPBRIDGE38",
+        "issuer": "GAUCPLSPBJKOSN7WZK6SDD2BYPQMC3YSWMLX4XXY7S4JPQFLJXEINDUS",
+        "type": "credit_alphanum4",
+        "amount": "119231095.3825179"
+      },
+      "liquidityPoolId": "ff6ff283b1130bf097e1c5afc353b7f950cf843f78dd763be1b81faa4026cba7",
+      "totalShares": "2482.9134372",
+      "totalTrustlines": "1",
+      "reserveA": "0.0590973",
+      "reserveB": "119231095.3825179",
+      "source": "mainnet",
+      "createdAt": "2025-11-30T03:10:09.526Z"
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+
+🚀 Deploying Testnet Pools with Mainnet Ratios
+
+======================================================================
+[Testnet] Generated new keypair:
+   Public Key: GBRGXSP7DFMCCGZSDSE2P3EUP657RMS2YTMDGBJZAHOQP4ON6VBGP5TS
+   Secret Key: SCDVXCT6X7R6APZW7FD5VJVCTUOGYMF3KPWL6PELPIE7HLEZVWSJZTQC
+
+⚠️  Save this secret key to .env.local!
+
+[Testnet] Funding account from friendbot...
+[Testnet] ✓ Account funded
+
+Source Account: GBRGXSP7DFMCCGZSDSE2P3EUP657RMS2YTMDGBJZAHOQP4ON6VBGP5TS
+
+Deploying 100 pools...
+
+[1/100] XLM/AAVE
+  ⏭️  Skipping - amounts too small: 1.04e-2 / 1.00e+6
+[2/100] XLM/META
+  Mainnet ratio: 1 XLM = 7.63e+5 META
+  Testnet liquidity: 1.31e+0 XLM / 1.00e+6 META
+  Price: 763184593/1000 (range: 1/1000 to 2000000000/1000)
+  ❌ Error: Request failed with status code 400
+  Details: {
+  "transaction": "tx_failed",
+  "operations": [
+    "op_success",
+    "op_bad_price"
+  ]
+}
+[3/100] MOBI/ETFlumens
+  Mainnet ratio: 1 MOBI = 1.71e-2 ETFlumens
+  Testnet liquidity: 1.00e+5 MOBI / 1.71e+3 ETFlumens
+  Price: 17/1000 (range: 1/1000 to 2000000000/1000)
+  ✓ Pool created: ba226316...
+  ✓ Ratio: 1 MOBI = 0.017057 ETFlumens
+[4/100] VRL/WGUARDIAN
+  ⏭️  Skipping - amounts too small: 1.00e+5 / 9.21e-1
+[5/100] XLM/BO
+  ⏭️  Skipping - amounts too small: 1.02e-1 / 1.00e+6
+[6/100] XRPBANK79/XRPBRIDGE79
+  Mainnet ratio: 1 XRPBANK79 = 2.09e+1 XRPBRIDGE79
+  Testnet liquidity: 4.78e+4 XRPBANK79 / 1.00e+6 XRPBRIDGE79
+  Price: 20902/1000 (range: 1/1000 to 2000000000/1000)
+  ✓ Pool created: b14dff88...
+  ✓ Ratio: 1 XRPBANK79 = 20.902247 XRPBRIDGE79
+[7/100] RIO/TERN
+  Mainnet ratio: 1 RIO = 4.09e+2 TERN
+  Testnet liquidity: 2.45e+3 RIO / 1.00e+6 TERN
+  Price: 408887/1000 (range: 1/1000 to 2000000000/1000)
+  ✓ Pool created: f5ae8d29...
+  ✓ Ratio: 1 RIO = 408.886657 TERN
+[8/100] XLM/FLR
+  ⏭️  Skipping - amounts too small: 3.64e-2 / 1.00e+6
+[9/100] AQUA/XRPASUS
+  ⏭️  Skipping - amounts too small: 6.72e-3 / 1.00e+6
+[10/100] XLM/QSAF
+  Mainnet ratio: 1 XLM = 6.98e+1 QSAF
+  Testnet liquidity: 1.43e+4 XLM / 1.00e+6 QSAF
+  Price: 69775/1000 (range: 1/1000 to 2000000000/1000)
+  ❌ Error: Request failed with status code 400
+  Details: {
+  "transaction": "tx_failed",
+  "operations": [
+    "op_success",
+    "op_underfunded"
+  ]
+}
+[11/100] NGNC/xRUNES
+  Mainnet ratio: 1 NGNC = 5.24e-1 xRUNES
+  Testnet liquidity: 1.00e+5 NGNC / 5.24e+4 xRUNES
+  Price: 524/1000 (range: 1/1000 to 2000000000/1000)
+  ✓ Pool created: 274e29dd...
+  ✓ Ratio: 1 NGNC = 0.524465 xRUNES
+[12/100] XLM/OKB
+  ⏭️  Skipping - amounts too small: 2.18e-3 / 1.00e+6
+[13/100] INDUSXUK/WGUARDIAN
+  Mainnet ratio: 1 INDUSXUK = 2.34e-4 WGUARDIAN
+  Testnet liquidity: 1.00e+5 INDUSXUK / 2.34e+1 WGUARDIAN
+  Price: 0/1000 (range: 1/1000 to 2000000000/1000)
+  ✓ Pool created: e1bc2779...
+  ✓ Ratio: 1 INDUSXUK = 0.000234 WGUARDIAN
+[14/100] XLM/XDC
+  Mainnet ratio: 1 XLM = 2.27e+4 XDC
+  Testnet liquidity: 4.40e+1 XLM / 1.00e+6 XDC
+  Price: 22748315/1000 (range: 1/1000 to 2000000000/1000)
+  ❌ Error: Request failed with status code 400
+  Details: {
+  "transaction": "tx_failed",
+  "operations": [
+    "op_success",
+    "op_bad_price"
+  ]
+}
+[15/100] ATLANTIC/BLACKROCK
+  Mainnet ratio: 1 ATLANTIC = 5.16e-1 BLACKROCK
+  Testnet liquidity: 1.00e+5 ATLANTIC / 5.16e+4 BLACKROCK
+  Price: 516/1000 (range: 1/1000 to 2000000000/1000)
+  ✓ Pool created: f8a747ff...
+  ✓ Ratio: 1 ATLANTIC = 0.516037 BLACKROCK
+[16/100] Ral/USD
+  ⏭️  Skipping - amounts too small: 1.00e+5 / 3.95e-1
+[17/100] XLM/DMART
+  ⏭️  Skipping - amounts too small: 8.23e-4 / 1.00e+6
+[18/100] XLM/QNT
+  Mainnet ratio: 1 XLM = 5.47e+5 QNT
+  Testnet liquidity: 1.83e+0 XLM / 1.00e+6 QNT
+  Price: 547131138/1000 (range: 1/1000 to 2000000000/1000)
+  ❌ Error: Request failed with status code 400
+  Details: {
+  "transaction": "tx_failed",
+  "operations": [
+    "op_success",
+    "op_bad_price"
+  ]
+}
+[19/100] XLM/AMAZON
+  Mainnet ratio: 1 XLM = 3.62e+4 AMAZON
+  Testnet liquidity: 2.77e+1 XLM / 1.00e+6 AMAZON
+  Price: 36153250/1000 (range: 1/1000 to 2000000000/1000)
+  ❌ Error: Request failed with status code 400
+  Details: {
+  "transaction": "tx_failed",
+  "operations": [
+    "op_success",
+    "op_bad_price"
+  ]
+}
+[20/100] FVI/GUARDIAN
+  ⏭️  Skipping - amounts too small: 1.00e+5 / 2.43e-2
+[21/100] abXTZ/aeCOMP
+  Mainnet ratio: 1 abXTZ = 9.40e-1 aeCOMP
+  Testnet liquidity: 1.00e+5 abXTZ / 9.40e+4 aeCOMP
+  Price: 940/1000 (range: 1/1000 to 2000000000/1000)
+  ✓ Pool created: 5bd44089...
+  ✓ Ratio: 1 abXTZ = 0.940171 aeCOMP
+[22/100] CVC/WGUARDIAN
+  ⏭️  Skipping - amounts too small: 1.00e+5 / 1.90e-1
+[23/100] WXT/TREAD
+  Mainnet ratio: 1 WXT = 2.44e-3 TREAD
+  Testnet liquidity: 1.00e+5 WXT / 2.44e+2 TREAD
+  Price: 2/1000 (range: 1/1000 to 2000000000/1000)
+  ✓ Pool created: 5620ed3c...
+  ✓ Ratio: 1 WXT = 0.002443 TREAD
+[24/100] GOLDBANK058/INDUSXGOLD
+  Mainnet ratio: 1 GOLDBANK058 = 4.21e-1 INDUSXGOLD
+  Testnet liquidity: 1.00e+5 GOLDBANK058 / 4.21e+4 INDUSXGOLD
+  Price: 421/1000 (range: 1/1000 to 2000000000/1000)
+  ✓ Pool created: 8158d9c3...
+  ✓ Ratio: 1 GOLDBANK058 = 0.420711 INDUSXGOLD
+[25/100] XAU/XRP
+  ⏭️  Skipping - amounts too small: 1.00e+5 / 1.79e-1
+[26/100] BRVHRT/NUCLEAR
+  Mainnet ratio: 1 BRVHRT = 1.75e+3 NUCLEAR
+  Testnet liquidity: 5.71e+2 BRVHRT / 1.00e+6 NUCLEAR
+  Price: 1750401/1000 (range: 1/1000 to 2000000000/1000)
+  ❌ Error: Request failed with status code 400
+  Details: {
+  "transaction": "tx_failed",
+  "operations": [
+    "op_success",
+    "op_bad_price"
+  ]
+}
+[27/100] IHAK/INDA
+  Mainnet ratio: 1 IHAK = 1.00e+0 INDA
+  Testnet liquidity: 1.00e+5 IHAK / 1.00e+5 INDA
+  Price: 1000/1000 (range: 1/1000 to 2000000000/1000)
+  ✓ Pool created: 9443385e...
+  ✓ Ratio: 1 IHAK = 1.000000 INDA
+[28/100] FLJ/XMR
+  Mainnet ratio: 1 FLJ = 2.91e-1 XMR
+  Testnet liquidity: 1.00e+5 FLJ / 2.91e+4 XMR
+  Price: 291/1000 (range: 1/1000 to 2000000000/1000)
+  ✓ Pool created: 6f4633bb...
+  ✓ Ratio: 1 FLJ = 0.291474 XMR
+[29/100] BTC/USDC
+  ⏭️  Skipping - amounts too small: 1.23e-1 / 1.00e+6
+[30/100] MIOTA/QHBAR
+  Mainnet ratio: 1 MIOTA = 8.08e-2 QHBAR
+  Testnet liquidity: 1.00e+5 MIOTA / 8.08e+3 QHBAR
+  Price: 81/1000 (range: 1/1000 to 2000000000/1000)
+  ✓ Pool created: 3340d3ad...
+  ✓ Ratio: 1 MIOTA = 0.080797 QHBAR
+[31/100] WGUARDIAN/XRPBRIDGE66
+  Mainnet ratio: 1 WGUARDIAN = 2.10e+4 XRPBRIDGE66
+  Testnet liquidity: 4.77e+1 WGUARDIAN / 1.00e+6 XRPBRIDGE66
+  Price: 20958816/1000 (range: 1/1000 to 2000000000/1000)
+  ❌ Error: Request failed with status code 400
+  Details: {
+  "transaction": "tx_failed",
+  "operations": [
+    "op_success",
+    "op_bad_price"
+  ]
+}
+[32/100] ACTION/XSHIB
+  Mainnet ratio: 1 ACTION = 1.85e+2 XSHIB
+  Testnet liquidity: 5.41e+3 ACTION / 1.00e+6 XSHIB
+  Price: 184991/1000 (range: 1/1000 to 2000000000/1000)
+  ✓ Pool created: 62da92fd...
+  ✓ Ratio: 1 ACTION = 184.990730 XSHIB
+[33/100] SL/HORSE
+  Mainnet ratio: 1 SL = 1.20e-2 HORSE
+  Testnet liquidity: 1.00e+5 SL / 1.20e+3 HORSE
+  Price: 12/1000 (range: 1/1000 to 2000000000/1000)
+  ✓ Pool created: 0474d915...
+  ✓ Ratio: 1 SL = 0.012038 HORSE
+[34/100] GOLD/yETH
+  Mainnet ratio: 1 GOLD = 3.89e-2 yETH
+  Testnet liquidity: 1.00e+5 GOLD / 3.89e+3 yETH
+  Price: 39/1000 (range: 1/1000 to 2000000000/1000)
+  ✓ Pool created: 96efbd6a...
+  ✓ Ratio: 1 GOLD = 0.038900 yETH
+[35/100] USDC/OCEANTOKEN
+  Mainnet ratio: 1 USDC = 5.23e+4 OCEANTOKEN
+  Testnet liquidity: 1.91e+1 USDC / 1.00e+6 OCEANTOKEN
+  Price: 52309154/1000 (range: 1/1000 to 2000000000/1000)
